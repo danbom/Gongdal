@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gimkuku/HCI-gongdal.git"
+    "url": "git+https://github.com/danbom/NEW-HCI-gongdal.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gimkuku/HCI-gongdal/issues"
+    "url": "https://github.com/danbom/NEW-HCI-gongdal/issues"
   },
-  "homepage": "https://github.com/gimkuku/HCI-gongdal/",
+  "homepage": "https://github.com/danbom/NEW-HCI-gongdal/",
   "dependencies": {
     "consolidate": "^0.16.0",
     "css": "^3.0.0",
