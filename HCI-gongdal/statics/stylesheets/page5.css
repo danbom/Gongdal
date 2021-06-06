@@ -9,8 +9,7 @@ a {
 }
 
 body {
-  font-family: "Noto Sans KR", sans-serif !important;
-  font-weight: 400;
+
   line-height: 1.5;
   color: #FFF;
 }
@@ -98,9 +97,8 @@ header > .wrap > ul > li :hover {
 .top-background {
   width: 100% !important;
   height: 219px;
-  background: #aad4f0;
-  mix-blend-mode: darken;
-  margin-top: 80px;
+  margin-top: 100px;
+  margin-bottom: 20px;
   position: relative;
 }
 
@@ -108,6 +106,10 @@ header > .wrap > ul > li :hover {
   width: 100%;
 }
 
+.icon-20{
+width: 20px;
+height: 20px;
+}
 .profile {
   color: #000;
   position: absolute;
@@ -153,7 +155,6 @@ justify-content: center;
   height: 59px;
   padding: 19px 30px;
   background: #e5ecf4;
-  mix-blend-mode: darken;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   box-sizing: border-box;
@@ -169,19 +170,20 @@ justify-content: center;
 
 .portfolio {
   position: absolute;
-  top: 330px;
+  top: 370px;
   left: calc(((100% - 1200px) / 2) + 408px);
 }
 
 .flex-box {
   display: flex;
 }
+
 .sort-selectbox {
   width: 93px;
   height: 25px;
 
   background: #e5ecf4;
-  mix-blend-mode: darken;
+  color: #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 

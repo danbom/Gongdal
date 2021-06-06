@@ -14,6 +14,7 @@ body {
   line-height: 1.5;
 }
 
+
 button {
   display: inline-block;
   text-align: center;
@@ -226,7 +227,7 @@ button {
   width: 20px;
   height: 20px;
   margin-left: 27px;
-  margin-top: 204px;
+  margin-top: 202px;
 
   font-family: Noto Sans CJK KR;
   font-style: normal;
@@ -240,7 +241,7 @@ button {
   width: 20px;
   height: 20px;
   margin-left: 98px;
-  margin-top: 204px;
+  margin-top: 202px;
 
   font-family: Noto Sans CJK KR;
   font-style: normal;
