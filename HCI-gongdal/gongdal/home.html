@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GONGDAL</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style_home.css" />
+  </head>
+
+  <body>
+    <div class="body1">
+      <header>
+        <a href="#" class="logo">GONGDAL</a>
+        <ul>
+          <li><a href="home.html" class="active">HOME</a></li>
+          <li><a href="contest.html">CONTEST</a></li>
+          <li><a href="schedule.html">SCHEDULE</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+        </ul>
+      </header>
+      <section>
+        <img src="stars.png" id="stars" />
+        <img src="moon.png" id="moon" />
+        <img src="mountains_behind.png" id="mountains_behind" />
+        <h2 id="text">with GONDAL</h2>
+        <a href="#search" id="btn">SEARCH</a>
+        <img src="mountains_front.png" id="mountains_front" />
+      </section>
+    </div>
+    <div class="body2">
+      <div class="search" id="search">
+        <div class="icon" onclick="onDisplay()"></div>
+        <div class="input">
+          <input type="text" placeholder="Search" id="mysearch" />
+        </div>
+        <span
+          class="clear"
+          onclick="document.getElementById('mysearch').value = ''"
+        ></span>
+      </div>
+      <div class="keyword" id="keyword">
+        <li><a href="contest.html">Web Novel Contest</a></li>
+        <li><a href="contest.html">Fashion Week</a></li>
+        <li><a href="contest.html">advertising contest</a></li>
+      </div>
+    </div>
+    <div class="body3">
+      <h2>POPULAR CONTEST</h2>
+      <div class="contest">
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest5.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">
+            Everyway Monthly Web Novel Contest June Star Web Novel Contest
+          </div>
+          <div class="contest-sub">EveryWay</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest4.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">2021 Online Jeongok Ryan Fashion Week</div>
+          <div class="contest-sub">Yeoncheon County</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest3.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">
+            Rosetta Tech Smart Call Advertising Parody Contest
+          </div>
+          <div class="contest-sub">Rosetatech</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest2.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">
+            The 19th Citizens' Contest, "Let's Protect This."
+          </div>
+          <div class="contest-sub">Korea National Trust</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest1.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">
+            2021 International Relief Activity Writing Contest without Borders
+          </div>
+          <div class="contest-sub">Doctors Without Borders</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+      </div>
+      <h2>RECENT CONTEST</h2>
+      <div class="contest">
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest1.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">
+            Everyway Monthly Web Novel Contest June Star Web Novel Contest
+          </div>
+          <div class="contest-sub">EveryWay</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest2.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">2021 Online Jeongok Ryan Fashion Week</div>
+          <div class="contest-sub">Yeoncheon County</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest3.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">
+            Rosetta Tech Smart Call Advertising Parody Contest
+          </div>
+          <div class="contest-sub">Rosetatech</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest4.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">
+            The 19th Citizens' Contest, "Let's Protect This."
+          </div>
+          <div class="contest-sub">Korea National Trust</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+        <div class="contest-box">
+          <div
+            class="contest_img"
+            style="
+              background-image: url(./contest5.png);
+              background-size: cover;
+            "
+          ></div>
+          <div class="contest-title">
+            2021 International Relief Activity Writing Contest without Borders
+          </div>
+          <div class="contest-sub">Doctors Without Borders</div>
+          <div class="interest-zone">
+            <span class="heart"
+              ><i class="fa fa-heart" aria-hidden="true"></i> 1,232</span
+            >
+            <span class="eye"
+              ><i class="fa fa-eye" aria-hidden="true"></i>3,129</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body4">
+      <footer>
+        <div class="container">
+          <div class="sect aboutus">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+              possimus, cupiditate ipsam labore qui quidem accusamus
+              consequuntur ad voluptate odio obcaecati, delectus animi
+              distinctio blanditiis molestias ab ea reprehenderit vitae?
+            </p>
+            <ul class="sci">
+              <li>
+                <a href="#"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="sect quickLinks">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="contest.html">CONTEST</a></li>
+              <li><a href="schedule.html">SCHEDULE</a></li>
+              <li><a href="portfolio.html">PORTFOLIO</a></li>
+            </ul>
+          </div>
+          <div class="sect contact">
+            <h2>Contact Info</h2>
+            <ul class="info">
+              <li>
+                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                <span
+                  >Ewha Womans University<br />
+                  Ahyeon-dong, Seodaemun-gu, <br />Seoul</span
+                >
+              </li>
+              <li>
+                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <p>
+                  <a href="tel:123456789">+1 234 567 8900</a><br /><a
+                    href="tel:123456789"
+                    >+1 234 567 8900</a
+                  >
+                </p>
+              </li>
+              <li>
+                <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <p><a href="mailto:gongdal@email.com">gongdal@email.com</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      let stars = document.getElementById("stars");
+      let moon = document.getElementById("moon");
+      let mountains_behind = document.getElementById("mountains_behind");
+      let text = document.getElementById("text");
+      let btn = document.getElementById("btn");
+      let mountains_front = document.getElementById("mountains_front");
+      let header = document.querySelector("header");
+
+      window.addEventListener("scroll", function () {
+        let value = window.scrollY;
+        stars.style.left = value * 0.35 + "px";
+        moon.style.top = value * 0.95 + "px";
+        mountains_behind.style.top = value * 0.5 + "px";
+        mountains_front.style.top = value * 0 + "px";
+        text.style.marginRight = value * 2 + "px";
+        text.style.marginTop = value * 1 + "px";
+        btn.style.marginTop = value * 1 + "px";
+        header.style.top = value * 0.5 + "px";
+      });
+      const icon = document.querySelector(".icon");
+      const search = document.querySelector(".search");
+      icon.onclick = function () {
+        search.classList.toggle("active");
+        keyword.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>

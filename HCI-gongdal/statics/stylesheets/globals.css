@@ -1,0 +1,64 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300|Noto+Sans:400,700,600|Noto+Sans+KR:500");
+
+@font-face {
+  font-family: "Noto Sans CJK KR-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/600141ce61c05d919928ee26/fonts/notosanscjkkr-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK KR-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6087cba601c62b3ba3fffb77/fonts/notosanscjkkr-medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK KR-DemiLight";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6087cba601c62b3ba3fffb77/fonts/notosanscjkkr-demilight.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK KR-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/600141ce61c05d919928ee26/fonts/notosanscjkkr-bold.otf")
+    format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.screen * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}

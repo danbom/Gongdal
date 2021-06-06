@@ -1,0 +1,374 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+ul,
+li,
+a {
+  text-decoration: none !important;
+  list-style: none !important;
+  color: #000;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: #12313300;
+  box-sizing: border-box;
+  margin: 0em;
+  padding: 1px 6px;
+  border-style: none;
+  font-size: 15px;
+}
+
+.topbtn {
+  position: absolute;
+  width: 50px;
+  height: 23px;
+  left: 1757px;
+  top: 47px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.topbtn > img {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 60px;
+  top: 0px;
+}
+/* content.css */
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.content {
+  width: 100%;
+}
+
+.search-box {
+  position: absolute;
+  width: 980px;
+  height: 56px;
+  left: 480px;
+  top: 217px;
+
+  background: #feffff;
+  box-shadow: inset 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 45px;
+}
+
+.search-box > .search-icon {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 28px;
+  top: 18px;
+}
+
+.search-box > span {
+  position: absolute;
+  width: 84px;
+  height: 23px;
+  left: 830px;
+  top: 18px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.search-box > .more-icon {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 930px;
+  top: 22px;
+}
+
+.contest {
+  position: absolute;
+  top: 370px;
+  left: calc(((100% - 1200px) / 2) + 65px);
+}
+
+.flex-box {
+  display: flex;
+}
+
+.popular-contest {
+  display: flex;
+  padding: 30px;
+}
+
+.details > .the {
+  position: absolute;
+  width: 104px;
+  height: 18px;
+  margin-left: 438px;
+  margin-top: 620px;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.07em;
+}
+
+.details > .details {
+  position: absolute;
+  width: 104px;
+  height: 27px;
+  margin-left: 461px;
+  margin-top: 631px;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.08em;
+}
+
+.contest-box {
+  width: 250px;
+  height: 400px;
+  padding-right: 10%;
+}
+
+.contest-img {
+  width: 120px;
+  height: 120px;
+  margin-right: 50px;
+  margin-top: 29px;
+}
+
+.info-title {
+  position: absolute;
+  width: 240px;
+  height: 27px;
+  margin-left: 0px;
+  margin-top: 138px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.info-detail {
+  position: absolute;
+  width: 240px;
+  height: 27px;
+  margin-left: 0px;
+  margin-top: 165px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 14px;
+  /* identical to box height */
+}
+
+.interest-zone {
+  margin-left: 1330px;
+  margin-top: 180px;
+}
+
+.interest-zone > .heart {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+  margin-top: 205px;
+}
+
+.interest-zone > .see {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 70px;
+  margin-top: 205px;
+}
+
+.interest-zone > .i1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 27px;
+  margin-top: 204px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.interest-zone > .i2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 98px;
+  margin-top: 204px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.poster-img > img {
+  width: 220px;
+  position: absolute;
+  margin-left: 480px;
+  margin-top: 270px;
+}
+
+.d-day {
+  position: absolute;
+  width: 60px;
+  height: 35px;
+  left: 480px;
+  top: 330px;
+  background-color: #f54747;
+  border-radius: 10px;
+}
+
+.d-day > .d1 {
+  color: white;
+  text-align: center;
+  font-family: Noto Sans CJK KR;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.title {
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  margin-left: 480px;
+  margin-top: 190px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 49px;
+
+  color: #000000;
+}
+
+.major-info > .institution {
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  margin-left: 740px;
+  margin-top: 283px;
+  font-size: 16px;
+}
+
+.major-info > .major-info-detail {
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  margin-left: 740px;
+  margin-top: 332px;
+  font-size: 13px;
+}
+
+.minor-info > .minor-info-detail {
+  position: absolute;
+  width: 1000px;
+  height: 49px;
+  margin-left: 740px;
+  margin-top: 640px;
+  font-size: 13px;
+}
+
+.footer > .footer1 {
+  padding-top: 15%;
+  position: absolute;
+  width: 86px;
+  height: 27px;
+  margin-left: 939px;
+  margin-top: 1356px;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #3c3c3c;
+}
+
+.footer > .footer2 {
+  padding-top: 15%;
+  position: absolute;
+  width: 754px;
+  height: 19px;
+  margin-left: 600px;
+  margin-top: 1402px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #3c3c3c;
+}
+
+.footer > .footer3 {
+  padding-top: 15%;
+  padding-bottom: 5%;
+  position: absolute;
+  width: 273px;
+  height: 19px;
+  margin-left: 840px;
+  margin-top: 1428px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.8);
+}
