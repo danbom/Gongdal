@@ -134,12 +134,12 @@ header > .wrap > ul > li :hover {
 }
 .brand-list-index > span:first-child {
   position: absolute;
-  right: 153px;
+  right: 165px;
   top: 25px;
 }
 .brand-list-index > span:last-child {
   position: absolute;
-  right: 60px;
+  right: 65px;
   top: 25px;
 }
 .brand-btn-bar > .brand-btn-zone {
@@ -187,7 +187,7 @@ header > .wrap > ul > li :hover {
 .rank {
   width: 44px;
   height: 44px;
-  margin-right: 56px;
+  margin-right: 20px;
   text-align: center;
   line-height: 44px;
 }
@@ -219,6 +219,15 @@ header > .wrap > ul > li :hover {
 .contest-rank {
   margin-right: 38px;
 }
+
+.contest-info{
+  width: 220px;
+}
+.contest-rank {
+  width: 40px;
+}
+
+
 .contest-name {
   font-style: normal;
   font-weight: normal;
@@ -230,4 +239,11 @@ header > .wrap > ul > li :hover {
   width: 100%;
   max-width: 900px;
   background: #e2e2e2;
+}
+
+.img-icon{
+  width: 90px;
+  height: 90px;
+  border-radius: 4px;
+
 }

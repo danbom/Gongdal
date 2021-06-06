@@ -23,21 +23,11 @@
         <li><a href="page5.html" target="" class = "active" title="">PORTFOLIO</a></li>
       </ul>
     </header>
-    <div class="body1">
-      <section>
-        <img src="../statics/icons/stars.png" id="stars" />
-        <img src="../statics/icons/moon.png" id="moon" />
-        <img src="../statics/icons/mountains_behind.png" id="mountains_behind" />
-        <h2 id="text">with GONDAL</h2>
-        <a href="#sec" id="btn">EXPLORE</a>
-        <img src="../statics/icons/mountains_front.png" id="mountains_front" />
-      </section>
-    </div>
-    <div class="sec" id="sec" style="height: 1600px !important;">
+    <div class="sec" id="sec" style="height: 1600px !important; padding: 0px !important">
    
         <div class = "wrapper">
             <div class="content">
-            <div class = "top-background"></div>
+            <img src="../statics/icons/background_profile.png" class = "top-background" style="object-fit:cover"></img>
                 <div class = "profile">
                     <div>
                     <img class="profile-img" src= "../statics/icons/user-img.png" />
@@ -64,6 +54,7 @@
                             <img src  = "../statics/icons/dropdown.png" />    
                         </div>
                     </div>
+                    <div class = "portfolio-line" style="margin-top:40px;"></div>
                     <div class = "portfolio-box" id = "p1">
                         <div class = "portfolio-rank">
                             <img src  = "../statics/icons/rank1.png" />
@@ -76,9 +67,8 @@
                             <div class = "info-title">
                                 2021 ICT/SW 여성 창업공모전
                             </div>
-                                <img src  = "../statics/icons/edit_circle.png" />
-                                <img src  = "../statics/icons/delete_circle.png" onclick="deleteElement('p1');"/>
-                                <img src  = "../statics/icons/share_circle.png" />
+                                <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p1');"/>
+                                <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
                             </div>
                             <div class = "info-detail">
                                 과학기술정보통신부<br>
@@ -90,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class = "portfolio-line"></div>
+                    <div class = "portfolio-line" ></div>
                     <div class = "portfolio-box" id = "p2">
                         <div class = "portfolio-rank">
                             <img src  = "../statics/icons/rank2.png" />
@@ -103,9 +93,8 @@
                             <div class = "info-title">
                                 2021 ICT/SW 여성 창업공모전
                             </div>
-                                <img src  = "../statics/icons/edit_circle.png" />
-                                <img src  = "../statics/icons/delete_circle.png" onclick="deleteElement('p2');"/>
-                                <img src  = "../statics/icons/share_circle.png" />
+                                <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p2');"/>
+                                <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
                             </div>
                             <div class = "info-detail">
                                 과학기술정보통신부<br>
@@ -130,9 +119,8 @@
                             <div class = "info-title">
                                 2021 ICT/SW 여성 창업공모전
                             </div>
-                                <img src  = "../statics/icons/edit_circle.png" />
-                                <img src  = "../statics/icons/delete_circle.png" onclick="deleteElement('p3');"/>
-                                <img src  = "../statics/icons/share_circle.png" />
+                                <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p3');"/>
+                                <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
                             </div>
                             <div class = "info-detail">
                                 과학기술정보통신부<br>
@@ -157,9 +145,8 @@
                             <div class = "info-title">
                                 2021 ICT/SW 여성 창업공모전
                             </div>
-                                <img src  = "../statics/icons/edit_circle.png" />
-                                <img src  = "../statics/icons/delete_circle.png" onclick="deleteElement('p4');"/>
-                                <img src  = "../statics/icons/share_circle.png" />
+                                <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p4');"/>
+                                <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
                             </div>
                             <div class = "info-detail">
                                 과학기술정보통신부<br>
@@ -184,9 +171,8 @@
                             <div class = "info-title">
                                 2021 ICT/SW 여성 창업공모전
                             </div>
-                                <img src  = "../statics/icons/edit_circle.png" />
-                                <img src  = "../statics/icons/delete_circle.png" onclick="deleteElement('p5');"/>
-                                <img src  = "../statics/icons/share_circle.png" />
+                                <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p5');"/>
+                                <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
                             </div>
                             <div class = "info-detail">
                                 과학기술정보통신부<br>
@@ -211,9 +197,8 @@
                             <div class = "info-title">
                                 2021 ICT/SW 여성 창업공모전
                             </div>
-                                <img src  = "../statics/icons/edit_circle.png" />
-                                <img src  = "../statics/icons/delete_circle.png" onclick="deleteElement('p6');"/>
-                                <img src  = "../statics/icons/share_circle.png" />
+                                <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p6');"/>
+                                <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
                             </div>
                             <div class = "info-detail">
                                 과학기술정보통신부<br>
@@ -355,6 +340,10 @@
                     obj.style.display="none";
                 }
             }
-        </script>>
+
+            function shareElement(){
+                alert("클립보드에 포트폴리오 정보가 복사되었습니다. ")
+            }
+        </script>
 </body>
 
