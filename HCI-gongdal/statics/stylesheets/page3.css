@@ -16,8 +16,8 @@ body {
 
 button:active {
   -webkit-box-shadow: inset 1px 1px 10px #333;
-  -moz-box-shadow:    inset 1px 1px 10px #333;
-  box-shadow:         inset 1px 1px 10px #333;
+  -moz-box-shadow: inset 1px 1px 10px #333;
+  box-shadow: inset 1px 1px 10px #333;
 }
 
 button {
@@ -57,6 +57,10 @@ button {
   left: 60px;
   top: 0px;
 }
+
+.sec {
+  background: #fff;
+}
 /* 
 header > .wrap {
   display: flex;
@@ -92,114 +96,18 @@ header > .wrap > ul > li :hover {
 }
  */
 
-.footer > .footer1 {
-  padding-top: 15%;
-  position: absolute;
-  width: 86px;
-  height: 27px;
-  margin-left: 939px;
-  margin-top: 1356px;
-
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
-
-  color: #3c3c3c;
-}
-
-.footer > .footer2 {
-  padding-top: 15%;
-  position: absolute;
-  width: 754px;
-  height: 19px;
-  margin-left: 600px;
-  margin-top: 1402px;
-
-  font-family: Noto Sans CJK KR;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-
-  color: #3c3c3c;
-}
-
-.footer > .footer3 {
-  padding-top: 15%;
-  padding-bottom: 5%;
-  position: absolute;
-  width: 273px;
-  height: 19px;
-  margin-left: 840px;
-  margin-top: 1428px;
-
-  font-family: Noto Sans CJK KR;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  /* identical to box height */
-
-  color: rgba(0, 0, 0, 0.8);
-}
-
 /* screen - page-3 */
 
 .page-3 {
   /* background-color: #ffffff; */
-  height: 1500px;
+  height: 1100px;
   mix-blend-mode: normal;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
   width: 1920px;
 }
-.page-3 .contest-1 {
-  background-color: transparent;
-  height: auto;
-  left: 854px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: center;
-  top: 48px;
-  width: 113px;
-}
-.page-3 .contest-2{
-  background-color: transparent;
-  height: auto;
-  left: 859px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: center;
-  top: 45px;
-  width: 100px;
-}
-.page-3 .copyright-gongd-rights-reserved {
-  background-color: transparent;
-  color: #000000cc;
-  font-family: var(--font-family-noto_sans);
-  font-size: var(--font-size-xs);
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 893px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 1378px;
-  width: 279px;
-}
+
 .page-3 .draft-document-pre-exploration-1 {
   background-color: transparent;
   height: auto;
@@ -212,6 +120,7 @@ header > .wrap > ul > li :hover {
   top: 618px;
   width: 117px;
 }
+
 .page-3 .draft-document-pre-exploration-2 {
   background-color: transparent;
   height: auto;
@@ -264,7 +173,7 @@ header > .wrap > ul > li :hover {
   text-align: left;
   top: 213px;
   width: 34px;
-  color: #ffffff;
+  color: #111;
 }
 .page-3 .ellipse-11 {
   background-color: #d6e2ef;
@@ -345,7 +254,7 @@ header > .wrap > ul > li :hover {
   font-weight: 700;
   height: auto;
   left: 994px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -355,14 +264,14 @@ header > .wrap > ul > li :hover {
 }
 .page-3 .gongdal {
   background-color: transparent;
-   
+
   font-family: var(--font-family-noto_sans_cjk_kr-medium);
   font-size: 45px;
   font-style: normal;
   font-weight: 500;
   height: auto;
   left: 368px;
-  letter-spacing: -4.50px;
+  letter-spacing: -4.5px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -370,7 +279,7 @@ header > .wrap > ul > li :hover {
   top: 26px;
   width: 288px;
 }
-.page-3 .h{
+.page-3 .h {
   background-color: transparent;
   height: auto;
   left: 898px;
@@ -384,14 +293,14 @@ header > .wrap > ul > li :hover {
 }
 .page-3 .history {
   background-color: transparent;
-  color:#dbe6fd;
+  color: #161616;
   font-family: var(--font-family-noto_sans);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 600;
   height: auto;
   left: 50px;
-  letter-spacing: -1.60px;
+  letter-spacing: -1.6px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -403,7 +312,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 721px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -415,7 +324,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 719px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -505,23 +414,23 @@ header > .wrap > ul > li :hover {
 }
 .page-3 .interested-in- {
   background-color: transparßent;
-   
+
   font-family: var(--font-family-noto_sans_cjk_kr-demilight);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 300;
   height: auto;
   left: 156px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
   top: 230px;
   width: 135px;
-  color: #ffffff;
+  color: #161616;
 }
-.page-3 .line-2{
+.page-3 .line-2 {
   background-color: transparent;
   height: 1340px;
   left: 367px;
@@ -531,21 +440,20 @@ header > .wrap > ul > li :hover {
 }
 .page-3 .member {
   background-color: transparent;
-  color: #dbe6fd;
+  color: #161616;
   font-family: var(--font-family-noto_sans);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 600;
   height: auto;
   left: 50px;
-  letter-spacing: -1.60px;
+  letter-spacing: -1.6px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
   top: 333px;
   width: 81px;
-  
 }
 .page-3 .month1 {
   background-color: transparent;
@@ -619,7 +527,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 1211px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -631,7 +539,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 1208px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -769,7 +677,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 1025px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -781,33 +689,32 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 1032px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
   top: 45px;
   width: 113px;
-  color: #ffffff;
-
+  color: #111;
 }
 .page-3 .schedule-1 {
   background-color: transparent;
-   
+
   font-family: var(--font-family-noto_sans_kr);
   font-size: 35px;
   font-style: normal;
   font-weight: 500;
   height: auto;
   left: 401px;
-  letter-spacing: -3.50px;
+  letter-spacing: -3.5px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
   top: 418px;
   width: 161px;
-  color: #ffffff;
+  color: #111;
 }
 .page-3 .span0-3 {
   letter-spacing: -0.26px;
@@ -815,7 +722,7 @@ header > .wrap > ul > li :hover {
 .page-3 .span0-2 {
   letter-spacing: -0.26px;
 }
-.page-3 .span0-1{
+.page-3 .span0-1 {
   letter-spacing: -0.26px;
 }
 .page-3 .span0-4 {
@@ -855,27 +762,27 @@ header > .wrap > ul > li :hover {
 }
 .page-3 .title {
   background-color: transparent;
-   
+
   font-family: var(--font-family-noto_sans_cjk_kr-regular);
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
   height: auto;
   left: 384px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
   top: 12px;
   width: 306px;
-  color: #ffffff;
+  color: #111;
 }
 .page-3 .to-do-list-1 {
   background-color: transparent;
   height: auto;
   left: 465px;
-  letter-spacing: -1.20px;
+  letter-spacing: -1.2px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -887,7 +794,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 751px;
-  letter-spacing: -1.20px;
+  letter-spacing: -1.2px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -899,7 +806,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 960px;
-  letter-spacing: -1.20px;
+  letter-spacing: -1.2px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -911,7 +818,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 629px;
-  letter-spacing: -1.20px;
+  letter-spacing: -1.2px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -923,7 +830,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 1424px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -934,66 +841,66 @@ header > .wrap > ul > li :hover {
 
 .page-3 .user-title {
   background-color: transparent;
-   
+
   font-family: var(--font-family-noto_sans_kr);
   font-size: 35px;
   font-style: normal;
   font-weight: 500;
   height: auto;
   left: 154px;
-  letter-spacing: -3.50px;
+  letter-spacing: -3.5px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
   top: 187px;
   width: 85px;
-  color: #ffffff;
+  color: #111;
 }
 .page-3 .user1 {
   background-color: transparent;
   height: auto;
   left: 85px;
-  letter-spacing: -0.80px;
+  letter-spacing: -0.8px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
   top: 450px;
   width: 49px;
-  color: #ffffff;
+  color: #111;
 }
 .page-3 .user2 {
   background-color: transparent;
   height: auto;
   left: 165px;
-  letter-spacing: -0.80px;
+  letter-spacing: -0.8px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
   top: 450px;
   width: 49px;
-  color: #ffffff;
+  color: #111;
 }
 .page-3 .user3 {
   background-color: transparent;
   height: auto;
   left: 246px;
-  letter-spacing: -0.80px;
+  letter-spacing: -0.8px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
   top: 450px;
   width: 48px;
-  color: #ffffff;
+  color: #111;
 }
 .page-3 .x0216-user3-edited-schedule {
   background-color: transparent;
   height: auto;
   left: 69px;
-  letter-spacing: -0.90px;
+  letter-spacing: -0.9px;
   line-height: 28px;
   mix-blend-mode: normal;
   position: absolute;
@@ -1006,7 +913,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 69px;
-  letter-spacing: -0.90px;
+  letter-spacing: -0.9px;
   line-height: 28px;
   mix-blend-mode: normal;
   position: absolute;
@@ -1045,7 +952,7 @@ header > .wrap > ul > li :hover {
   background-color: transparent;
   height: auto;
   left: 69px;
-  letter-spacing: -0.90px;
+  letter-spacing: -0.9px;
   line-height: 28px;
   mix-blend-mode: normal;
   position: absolute;
@@ -1063,7 +970,7 @@ header > .wrap > ul > li :hover {
   font-weight: 400;
   height: auto;
   left: 650px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -1073,14 +980,14 @@ header > .wrap > ul > li :hover {
 }
 .page-3 .x1354 {
   background-color: transparent;
-   
+
   font-family: var(--font-family-noto_sans_cjk_kr-demilight);
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 300;
   height: auto;
   left: 243px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -1098,7 +1005,7 @@ header > .wrap > ul > li :hover {
   font-weight: 700;
   height: auto;
   left: 812px;
-  letter-spacing: -4.00px;
+  letter-spacing: -4px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
@@ -1115,11 +1022,15 @@ header > .wrap > ul > li :hover {
   font-weight: 700;
   height: auto;
   left: 567px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
   top: 261px;
   width: 112px;
+}
+
+.body4 {
+  background: #fff;
 }

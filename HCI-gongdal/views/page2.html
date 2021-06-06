@@ -18,7 +18,7 @@
 
   <body>
     <header>
-      <a href="#" class="logo">GONGDAL</a>
+      <a href="#" class="logo"></a>
       <ul>
         <li><a href="page1.html" target="" title="">HOME</a></li>
         <li><a href="page4.html" target="" title="">CONTEST</a></li>
@@ -27,6 +27,8 @@
       </ul>
     </header>
     <div class="section1">
+      <div class="big-logo">GONGDAL</div>
+      <img src="../statics/icons/stars.png" id="stars" />
       <div class="wave" id="wave1" style="--i: 1"></div>
       <div class="wave" id="wave2" style="--i: 2"></div>
       <div class="wave" id="wave3" style="--i: 3"></div>
@@ -34,7 +36,6 @@
     </div>
 
     <div class="sec" id="sec">
- 
       <div class="navigator" id = "side-bar">
         <div class="user">
           <img class="user_icon" src="../statics/icons/user-img.png">
@@ -50,36 +51,36 @@
         <div class="sortby">
           <ul class="sortby">SORT BY
             <li class="sortby">
-          <li ><button type="button" onclick="sortbtn('all');" class="sortby2" id = "allbtn">ALL</button>
-          <li ><button type="button" onclick="sortbtn('c');" id = "contestbtn" class="sortby1">CONTEST</button>
-          <li ><button type="button" onclick="sortbtn('m'); " id = "midtermbtn" class="sortby1">MIDTERM</button>
+          <li ><button type="button" onclick="sortbtn('all');" class="sortby2" id = "allbtn"id="btn"><span>ALL</span></button>
+          <li ><button type="button" onclick="sortbtn('c');" id = "contestbtn" class="sortby1" id="btn"><span>CONTEST</span></button>
+          <li ><button type="button" onclick="sortbtn('m'); " id = "midtermbtn" class="sortby1"><span>MIDTERM</span></button>
           </ul>
         </div>
-        <div class="sortby" style="margin-left: 15%; font-size: 1.2em;">
+        <div class="sortby" style="margin-left: 15%; font-size: 1.2em; font-weight: 500;">
           DATE<br>
-          <button type="button" style="margin-top: 10%; "class="date1" onclick="sortbtn('sort1');">
+          <button type="button" style="margin-top: 11%; "class="date1" onclick="sortbtn('sort1');">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="11" cy="11" r="11" fill="#F3F2F5"/>
               </svg>                            
-            &nbsp&nbsp 2021. 01 ~ 2021. 12
+            &nbsp&nbsp&nbsp&nbsp 2021. 01 ~ 2021. 12
           </button>
           <button type="button" class="date1" onclick="sortbtn('sort2');">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="11" cy="11" r="11" fill="#E1E0E7"/>
               </svg>              
-            &nbsp&nbsp 2021. 01 ~ 2021. 12
+            &nbsp&nbsp&nbsp&nbsp 2021. 01 ~ 2021. 12
           </button>
           <button type="button" class="date1" onclick="sortbtn('sort3');">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="11" cy="11" r="11" fill="#C7C6D2"/>
               </svg>              
-            &nbsp&nbsp 2021. 01 ~ 2021. 12
+            &nbsp&nbsp&nbsp&nbsp 2021. 01 ~ 2021. 12
           </button>
           <button type="button" class="date1" onclick="sortbtn('m');">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="11" cy="11" r="11" fill="#9897AC"/>
               </svg>              
-            &nbsp&nbsp 2021. 01 ~ 2021. 12
+            &nbsp&nbsp&nbsp&nbsp 2021. 01 ~ 2021. 12
           </button>
         </div>
       </div>
@@ -201,7 +202,7 @@
     <script>
 
 
-
+      
       
       let wave1 = document.getElementById("wave1");
       let wave2 = document.getElementById("wave2");
@@ -225,6 +226,16 @@
         }
         
       });
+
+      const btn = document.getElementById('btn');
+      btn.onmousemove = function(e){
+        const x = e.pageX - btn.offsetLeft;
+        const y = e.pageY - btn.offsetTop;
+
+        btn.style.setProperty('--x', x + 'px');
+        btn.style.setProperty('--y', y + 'px');
+
+      }
     </script>
 
 

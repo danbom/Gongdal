@@ -10,6 +10,7 @@
         <title>GONGDAL</title>
         <link rel="stylesheet" type="text/css" href="../statics/stylesheets/style.css" />
         <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page1.css" />
+        <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page2.css" />
         <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page3.css" />
         <!-- <link rel="stylesheet" type="text/css" href="../statics/stylesheets/styleguide.css" /> -->
         <!-- <link rel="stylesheet" type="text/css" href="../statics/stylesheets/globals.css" /> -->
@@ -17,47 +18,72 @@
     
       <body>
         <header>
-          <a href="#" class="logo">GONGDAL</a>
+          <a href="#" class="logo"></a>
           <ul>
             <li><a href="page1.html" target="" title="">HOME</a></li>
-            <li><a href="page4.html" target="" class = "active" title="">CONTEST</a></li>
-            <li><a href="page2.html" target="" title="">SCHEDULE</a></li>
+            <li><a href="page4.html" target="" title="">CONTEST</a></li>
+            <li><a href="page2.html" class = "active" target="" title="">SCHEDULE</a></li>
             <li><a href="page5.html" target="" title="">PORTFOLIO</a></li>
           </ul>
         </header>
+        <div class="section1">
+          <div class="big-logo">GONGDAL</div>
+          <img src="../statics/icons/stars.png" id="stars" />
+          <div class="wave" id="wave1" style="--i: 1"></div>
+          <div class="wave" id="wave2" style="--i: 2"></div>
+          <div class="wave" id="wave3" style="--i: 3"></div>
+          <div class="wave" id="wave4" style="--i: 4"></div>
+        </div>
 
         <div class="sec" id="sec">
+          <div class="navigator" id = "side-bar">
+            <div class="user">
+              <img class="user_icon" src="../statics/icons/user-img.png">
+              <div class="user_text">
+                <div class="user_text1">
+                  USER #1354<br>
+                </div>
+                <div class="user_text2">
+                  interested in ..
+                </div>
+              </div>
+            </div>
+            <div class="sortby">
+              <ul class="sortby">MEMBER
+                
+              </ul>
+            </div>
+            <div class="sortby" style="margin-left: 15%; font-size: 1.2em; font-weight: 500;">
+              HISTORY<br>
+              <button type="button" style="margin-top: 11%; "class="date1">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="11" cy="11" r="11" fill="#F3F2F5"/>
+                  </svg>                            
+                  <span>&nbsp&nbsp&nbsp03:45<br />User2 edited schedule</span>
+              </button>
+              <button type="button" class="date1" >
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="11" cy="11" r="11" fill="#E1E0E7"/>
+                  </svg>              
+                  <span>&nbsp&nbsp&nbsp03:45<br />User2 edited schedule</span>
+              </button>
+              <button type="button" class="date1" >
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="11" cy="11" r="11" fill="#C7C6D2"/>
+                  </svg>              
+                  <span>&nbsp&nbsp&nbsp03:45<br />User2 edited schedule</span>
+              </button>
+              <button type="button" class="date1" >
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="11" cy="11" r="11" fill="#9897AC"/>
+                  </svg>              
+                  <span>&nbsp&nbsp&nbsp03:45<br />User2 edited schedule</span>
+              </button>
+            </div>
+          </div>
     <div class="container-center-horizontal">
       <div class="page-3 screen">
-        <div class="x0345-user2-edited-schedule notosans-normal-black-18px">
-          03:45<br />User2 edited schedule
-        </div>
-        <div class="x0216-user3-edited-schedule notosans-normal-black-18px">
-          02:16<br />User3 edited schedule
-        </div>
-        <div class="x0534-user1-edited-schedule notosans-normal-black-18px">
-          05:34<br />User1 edited schedule
-        </div>
 
-        <div class="user-title">USER</div>
-        <div class="interested-in-">Interested in ~</div>
-        <div class="x1354">#1354</div>
-        <div class="user1 notosans-normal-black-16px">USER1</div>
-        <div class="user2 notosans-normal-black-16px">USER2</div>
-        <div class="user3 notosans-normal-black-16px">USER3</div>
-        <div class="member">MEMBER</div>
-        <div class="x0519 notosans-normal-black-18px">05.19</div>
-        <div class="x0520 notosans-normal-black-18px">05.20</div>
-        <img class="image-20" src="../statics/icons/image-20@2x.png" />
-        <img class="image-22" src="../statics/icons/image-22@2x.png" />
-        <img class="image-23" src="../statics/icons/image-23@2x.png" />
-        <img class="image-24" src="../statics/icons/image-24@2x.png" />
-        <div class="history">HISTORY</div>
-        <div class="ellipse-11"></div>
-        <div class="ellipse-14"></div>
-        <div class="ellipse-15"></div>
-        <div class="rectangle-50"></div>
-        <img class="rectangle-51" src="../statics/icons/rectangle-51@2x.svg" />
         <div class="x3">3</div>
         <div class="number-of-contests notosans-semi-bold-black-18px">Number of Contests</div>
         <div class="edit">EDIT</div>
@@ -193,16 +219,22 @@
     let header = document.querySelector("header");
 
     window.addEventListener("scroll", function () {
-      let value = window.scrollY;
-      stars.style.left = value * 0.35 + "px";
-      moon.style.top = value * 0.95 + "px";
-      mountains_behind.style.top = value * 0.5 + "px";
-      mountains_front.style.top = value * 0 + "px";
-      text.style.marginRight = value * 2 + "px";
-      text.style.marginTop = value * 1 + "px";
-      btn.style.marginTop = value * 1 + "px";
-      header.style.top = value * 0.5 + "px";
-    });
+        let value = window.scrollY;
+
+        wave1.style.backgroundPositionX = 400 + value * 1.5 + "px";
+        wave2.style.backgroundPositionX = 300 + value * -1.5 + "px";
+        wave3.style.backgroundPositionX = 200 + value * 0.5 + "px";
+        wave4.style.backgroundPositionX = 100 + value * -0.5 + "px";
+        
+        console.log("dlsfiejf : "+value);
+        var side = document.getElementById('side-bar');
+        if(value <= 900){
+          side.style.display = "block";
+        }else{
+          side.style.display = "none";
+        }
+        
+      });
   </script>
 
 
