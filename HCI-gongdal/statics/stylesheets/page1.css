@@ -138,8 +138,8 @@ section img#mountains_front {
 .section1 .big-logo {
   /* padding: 9% 30%; */
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 17vh;
+  left: 40vw;
   color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 12em;

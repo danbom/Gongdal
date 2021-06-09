@@ -92,7 +92,7 @@ header > .wrap > ul > li :hover {
   background: #fff;
 }
 .section1 .big-logo {
-  left: 30%;
+  left: 30vw;
 }
 
 /* content.css */

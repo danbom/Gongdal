@@ -85,11 +85,54 @@ header > .wrap > ul > li :hover {
 }
 
 .section1 .big-logo {
-  left: 30%;
+  left: 30vw;
 }
 
 .sec {
+  background: #f7f5fa;
+}
+
+.compare-board-header-section {
+  display: flex;
   background: #fff;
+}
+
+.compare-board-header-section .left-box {
+  margin-left: 8%;
+  background: #fff;
+  padding: 5% 8%;
+  width: 40%;
+  position: relative;
+}
+
+.right-box {
+  width: 47%;
+  height: 51vh;
+  background-image: url("../icons/board_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.compare-board-header .compare-board-title {
+  font-size: 4.5em;
+  font-weight: 600;
+  letter-spacing: -3px;
+  color: #2d1a46;
+  line-height: 1.3em;
+}
+
+.compare-board-header-section .compare-board-desc {
+  padding-top: 2vh;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  color: #7e66a0;
+  line-height: 1.3em;
+  max-width: 25vw;
+}
+
+.compare-board-header-section img {
 }
 
 /* content.css */
@@ -98,19 +141,52 @@ header > .wrap > ul > li :hover {
   display: flex;
   justify-content: center;
 }
+
+.table-block {
+  margin: 2% 12%;
+  background-color: #fff;
+  padding: 3.2% 8%;
+  border-radius: 25px;
+  box-shadow: 0 0 14px rgba(99, 99, 99, 0.247);
+}
+
+.table-header {
+  font-size: 1.3em;
+  font-weight: 500;
+
+  letter-spacing: -1px;
+  line-height: 6em;
+  padding-bottom: 2%;
+}
+
+.table-header span {
+  padding-right: 10%;
+}
+
+.table-header span#header-contest {
+  padding-right: 25%;
+}
+
+.table-item {
+  padding-bottom: 4%;
+  line-height: 4em;
+}
+
+.table-item span {
+  font-size: 1.1em;
+  padding-right: 6%;
+  vertical-align: middle;
+  color: rgb(63, 63, 63);
+}
+
+.table-item span#table-item-span-1 {
+  font-weight: 500;
+}
+
 .content {
   margin-top: 86px;
   width: 100%;
   max-width: 1200px;
-}
-
-.content-title-wrap {
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 135px;
 }
 
 .content-title > span {
@@ -121,17 +197,9 @@ header > .wrap > ul > li :hover {
   text-align: center;
 }
 
-.brand-btn-bar > .brand-line {
-  background: #e2e2e2;
-  max-width: 900px;
-  width: 100%;
-  height: 5px;
-}
-
 .brand-list-index {
   width: 100%;
-  max-width: 900px;
-  height: 50px;
+  height: 7vh;
   position: relative;
 }
 
@@ -150,23 +218,20 @@ header > .wrap > ul > li :hover {
   top: 25px;
 }
 .brand-btn-bar > .brand-btn-zone {
-  width: 100%;
-  max-width: 900px;
   display: flex;
   align-items: center;
   justify-items: center;
-  margin: 24px;
 }
 
 .brand-btn-bar > .brand-btn-zone > .brand-btn {
-  width: 90px;
+  width: 20vw;
   height: 90px;
   border-radius: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(196, 196, 196, 0.34);
-  margin-right: 85px;
+  margin-right: 5vw;
 }
 
 .brand-btn-bar > .brand-btn-zone > .brand-btn:hover {
@@ -254,5 +319,5 @@ header > .wrap > ul > li :hover {
 }
 
 .body4 {
-  background: #fff;
+  background: #f7f5fa;
 }
