@@ -198,7 +198,7 @@ section img#mountains_front {
   position: relative;
   padding: 100px;
   /* background: #1c0522; */
-  background: #2e2c58;
+  background: #fff;
   z-index: 1000000;
 }
 
@@ -360,7 +360,7 @@ body .body2 {
 
 .body3 {
   /* background: #2e2c58; */
-  background: linear-gradient(#2e2c58, #3f3d6b);
+  background: linear-gradient(#2e2c58, #9b9ab6);
 }
 
 .body3 h2 {
@@ -374,14 +374,14 @@ body .body2 {
 
 .body3 .contest {
   margin-left: 12%;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
   width: 20%;
   display: flex;
 }
 
 .body3 .contest1 {
   margin-left: 12%;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
   width: 20%;
   display: flex;
 }
@@ -425,7 +425,7 @@ body .body2 {
   margin-top: 23vh;
   margin-right: 2vw;
   border-radius: 5px;
-  width: 13.5vw;
+  width: 13.9vw;
   height: 25vh;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.24);
   /* background: #fff; */
@@ -442,27 +442,27 @@ body .body2 {
 }
 
 .body3 .contest .contest-box .contest-title {
-  padding-right: 10%;
+  padding-right: 9%;
   /* text-align: center; */
   color: #fff;
   margin-top: 4%;
-  margin-left: 1%;
+  margin-left: 0%;
   font-size: 90%;
 }
 
 .body3 .contest1 .contest-box .contest-title {
-  padding-right: 10%;
+  padding-right: 7%;
   /* text-align: center; */
   color: #fff;
   margin-top: 4%;
-  margin-left: 1%;
+  margin-left: 0%;
   font-size: 90%;
 }
 
 .body3 .contest .contest-box .contest-sub {
   /* position: absolute;
   top: 172%; */
-  padding-right: 10%;
+  padding-right: 5%;
   color: rgba(255, 255, 255, 0.705);
   margin-top: 5%;
   margin-left: 0.1%;
@@ -590,7 +590,7 @@ body .body2 {
   align-items: center;
   min-height: 60vh;
   flex-direction: column;
-  background: #3f3d6b;
+  background: linear-gradient(#9b9ab6, #fff);
 }
 
 footer {
