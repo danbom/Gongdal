@@ -58,8 +58,132 @@ button {
   top: 0px;
 }
 
-.sec {
+.checklist-header-section {
+  display: flex;
   background: #fff;
+}
+
+.checklist-header-section .left-box {
+  margin-left: 8%;
+  background: #fff;
+  padding: 5% 8%;
+  width: 40%;
+  position: relative;
+}
+
+.checklist-header .checklist-title {
+  font-size: 4.5em;
+  font-weight: 600;
+  letter-spacing: -3px;
+  color: #2d1a46;
+  line-height: 1.3em;
+}
+
+.checklist-header-section .checklist-desc {
+  padding-top: 2vh;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  color: #7e66a0;
+  line-height: 1.3em;
+  max-width: 25vw;
+}
+
+.checklist-box {
+  margin: 3% 10%;
+  height: 100vh;
+  display: flex;
+}
+
+.month-checklist-box {
+  margin: auto;
+  margin-top: 0;
+  width: 24%;
+  min-height: 50vh;
+}
+
+.month-checklist-title {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.month-checklist-title span {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.month-checklist-title span#checklist-span {
+  padding-left: 2%;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #2d1a46;
+}
+
+.month-checklist {
+  margin: auto;
+  margin-top: 3%;
+  width: 100%;
+  min-height: 50vh;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(134, 134, 134, 0.082);
+}
+
+.checklist-item {
+  width: 100%;
+  border-bottom: 1px solid rgba(134, 134, 134, 0.24);
+}
+
+.checkbox {
+  position: absolute;
+  margin-left: 1.4%;
+  margin-top: 1.8%;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #111;
+  border-radius: 3px;
+  width: 17px;
+  height: 17px;
+}
+
+textarea#textarea1 {
+  resize: none;
+  overflow-y: hidden;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  outline: none;
+  width: 80%;
+  height: 2.1em;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-top: 5%;
+  margin-left: 15%;
+  padding: 5%;
+  color: #404660;
+  border: none;
+  background-color: inherit;
+}
+
+textarea#textarea2 {
+  resize: none;
+  overflow-y: hidden;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  outline: none;
+  width: 80%;
+  height: 5em;
+  font-size: 0.8em;
+  margin-top: 0;
+  margin-left: 15%;
+  padding: 5%;
+  color: #404660;
+  border: none;
+  background-color: inherit;
+  margin-bottom: 2%;
+}
+
+.sec {
+  background: #f7f5fa;
 }
 /* 
 header > .wrap {
@@ -1032,5 +1156,5 @@ header > .wrap > ul > li :hover {
 }
 
 .body4 {
-  background: #fff;
+  background: #f7f5fa;
 }
