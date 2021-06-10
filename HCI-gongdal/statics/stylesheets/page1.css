@@ -536,7 +536,7 @@ body .body2 {
   margin-top: 3.7%;
   background-color: rgba(255, 255, 255, 0.856);
   width: 3vw;
-  height: 2.5vh;
+  line-height: 1.6em;
   text-align: center;
   border-radius: 5px;
   color: #2e2c58;
@@ -548,7 +548,7 @@ body .body2 {
   margin-top: 3.7%;
   background-color: rgba(255, 255, 255, 0.856);
   width: 3vw;
-  height: 2.5vh;
+  line-height: 1.6em;
   text-align: center;
   border-radius: 5px;
   color: #2e2c58;
@@ -560,7 +560,7 @@ body .body2 {
   margin-top: 3.7%;
   background-color: rgba(247, 65, 65, 0.87);
   width: 3vw;
-  height: 2.5vh;
+  line-height: 1.6em;
   text-align: center;
   line-height: 180%;
   border-radius: 5px;
@@ -574,7 +574,7 @@ body .body2 {
   margin-top: 3.7%;
   background-color: rgba(247, 65, 65, 0.87);
   width: 3vw;
-  height: 2.5vh;
+  line-height: 1.6em;
   text-align: center;
   line-height: 180%;
   border-radius: 5px;

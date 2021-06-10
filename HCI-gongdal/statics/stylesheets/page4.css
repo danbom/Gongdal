@@ -160,6 +160,11 @@ table thead tr th {
   line-height: 5em;
 }
 
+table tbody tr:hover {
+  background: #f7f5fad8;
+  cursor: pointer;
+}
+
 table tbody tr td {
   line-height: 5em;
 }
