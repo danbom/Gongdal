@@ -103,7 +103,7 @@ button {
 }
 
 .month-checklist-title {
-  margin-left: 5%;
+  margin-left: 2%;
   margin-bottom: 5%;
 }
 
@@ -119,11 +119,24 @@ button {
   color: #2d1a46;
 }
 
+.datelist {
+  font-size: 1em !important;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+.date {
+  border: none;
+  background: inherit;
+  width: 46%;
+  cursor: pointer;
+}
+
 .month-checklist {
   margin: auto;
   margin-top: 3%;
   width: 100%;
-  min-height: 50vh;
+  min-height: 100vh;
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(134, 134, 134, 0.082);
