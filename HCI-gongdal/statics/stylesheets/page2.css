@@ -246,20 +246,64 @@ th {
   padding: 1% 1%;
   height: 100%;
 }
-.schedule_body .schedule_button {
-  position: relative;
-  margin-bottom: 3%;
+
+.board-area {
+  width: 68%;
+  height: 17vh;
+  display: flex;
+  justify-content: space-around;
 }
-.schedule_body .schedule_button .schedule_button1 {
+
+.board-btn {
+  width: 95%;
+  height: 10em;
+  border: 0.2px solid #333;
+  box-shadow: 0 0 5px rgba(51, 51, 51, 0.151);
+  border-radius: 25px;
   position: relative;
-  margin-top: 1%;
+  background: #fff;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+
+.board-btn:hover {
+  background: #94949409;
+}
+
+.board-btn div {
+  color: #333;
+  padding: 7% 0 0 9%;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+.board-btn div i {
+  margin-right: 4%;
+}
+
+.board-btn p {
+  color: #333;
+  font-size: 0.8em;
+  padding: 1% 9% 0% 9%;
+}
+
+.week-schedule-title {
+  padding: 2% 0;
+  margin-top: 3%;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.week-schedule-title i {
+  margin-right: 1%;
 }
 
 .schedule_body .calendar_body {
   position: relative;
   text-align: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.1em;
   /* background-color: #FFF; */
 }
 .schedule_body .calendar_body .calendar {
@@ -268,8 +312,9 @@ th {
   position: relative;
   border-collapse: collapse;
   box-sizing: border-box;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.055);
   background-color: #fff;
+  border-radius: 15px;
 }
 .schedule_body .calendar_body .tr {
   color: rgb(0, 0, 0);
