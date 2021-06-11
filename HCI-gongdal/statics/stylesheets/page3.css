@@ -91,7 +91,6 @@ button {
 
 .checklist-box {
   margin: 3% 10%;
-  height: 100vh;
   display: flex;
 }
 
@@ -99,7 +98,7 @@ button {
   margin: auto;
   margin-top: 0;
   width: 24%;
-  min-height: 50vh;
+  min-height: 100vh;
 }
 
 .month-checklist-title {
@@ -198,6 +197,7 @@ textarea#textarea2 {
 
 .sec {
   background: #f7f5fa;
+  height: 150vh;
 }
 /* 
 header > .wrap {
