@@ -27,7 +27,6 @@
       </ul>
     </header>
     <div class="section1">
-      <div class="big-logo">GONGDAL</div>
       <img src="../statics/icons/stars.png" id="stars" />
       <div class="wave" id="wave1" style="--i: 1"></div>
       <div class="wave" id="wave2" style="--i: 2"></div>
@@ -49,38 +48,39 @@
           </div>
         </div>
         <div class="sortby">
-          <ul class="sortby">SORT BY
+          <ul class="sortby"><span class="sortby-icon"><i class="fa fa-sort" aria-hidden="true"></i></span>SORT BY
             <li class="sortby">
           <li ><button type="button" onclick="sortbtn('all');" class="sortby2" id = "allbtn"id="btn"><span>ALL</span></button>
           <li ><button type="button" onclick="sortbtn('c');" id = "contestbtn" class="sortby1" id="btn"><span>CONTEST</span></button>
           <li ><button type="button" onclick="sortbtn('m'); " id = "midtermbtn" class="sortby1"><span>MIDTERM</span></button>
           </ul>
         </div>
-        <div class="sortby" style="margin-left: 15%; font-size: 1.2em; font-weight: 500;">
-          DATE<br>
-          <button type="button" style="margin-top: 11%; "class="date1" onclick="sortbtn('sort1');">
+
+        <div class="sortby">
+          <ul class="sortby"><span class="sortby-icon"><i class="fa fa-calendar-o" aria-hidden="true"></i></span>DATE</ul>
+          <button type="button" style="margin-top: 9%; "class="date1" onclick="sortbtn('sort1');">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="11" cy="11" r="11" fill="#F3F2F5"/>
+              <circle cx="10" cy="10" r="10" fill="#F3F2F5"/>
               </svg>                            
-            &nbsp&nbsp&nbsp&nbsp 2021. 01 ~ 2021. 12
+            <span id="nav-date-span">2021. 01 ~ 2021. 12</span>
           </button>
           <button type="button" class="date1" onclick="sortbtn('sort2');">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="11" cy="11" r="11" fill="#E1E0E7"/>
+              <circle cx="10" cy="10" r="10" fill="#E1E0E7"/>
               </svg>              
-            &nbsp&nbsp&nbsp&nbsp 2021. 01 ~ 2021. 12
+              <span id="nav-date-span">2021. 01 ~ 2021. 12</span>
           </button>
           <button type="button" class="date1" onclick="sortbtn('sort3');">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="11" cy="11" r="11" fill="#C7C6D2"/>
+              <circle cx="10" cy="10" r="10" fill="#C7C6D2"/>
               </svg>              
-            &nbsp&nbsp&nbsp&nbsp 2021. 01 ~ 2021. 12
+              <span id="nav-date-span">2021. 01 ~ 2021. 12</span>
           </button>
           <button type="button" class="date1" onclick="sortbtn('m');">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="11" cy="11" r="11" fill="#9897AC"/>
+              <circle cx="10" cy="10" r="10" fill="#9897AC"/>
               </svg>              
-            &nbsp&nbsp&nbsp&nbsp 2021. 01 ~ 2021. 12
+              <span id="nav-date-span">2021. 01 ~ 2021. 12</span>
           </button>
         </div>
       </div>
