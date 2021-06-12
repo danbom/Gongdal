@@ -14,11 +14,11 @@ body {
   line-height: 1.5;
 }
 
-button:active {
+/* button:active {
   -webkit-box-shadow: inset 1px 1px 10px #333;
   -moz-box-shadow: inset 1px 1px 10px #333;
   box-shadow: inset 1px 1px 10px #333;
-}
+} */
 
 button {
   display: inline-block;
@@ -267,7 +267,7 @@ th {
 }
 
 .board-btn:hover {
-  background: #94949409;
+  background: #94949415;
 }
 
 .board-btn div {
@@ -290,7 +290,8 @@ th {
 
 .week-schedule-title {
   padding: 2% 0;
-  margin-top: 3%;
+  margin-top: 7%;
+  margin-bottom: 2%;
   font-size: 1.4em;
   font-weight: 500;
 }

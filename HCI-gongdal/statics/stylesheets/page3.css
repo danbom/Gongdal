@@ -90,14 +90,14 @@ button {
 }
 
 .checklist-box {
-  margin: 3% 10%;
+  margin: 3% 9%;
   display: flex;
 }
 
 .month-checklist-box {
   margin: auto;
   margin-top: 0;
-  width: 24%;
+  width: 24.5%;
   min-height: 100vh;
 }
 
