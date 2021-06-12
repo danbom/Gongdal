@@ -107,7 +107,6 @@ header > .wrap > ul > li :hover {
 
 .right-box {
   width: 47%;
-  height: 51vh;
   background-image: url("../icons/board_img.png");
   background-size: contain;
   background-repeat: no-repeat;
