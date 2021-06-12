@@ -98,7 +98,6 @@ button {
   margin: auto;
   margin-top: 0;
   width: 24.5%;
-  min-height: 100vh;
 }
 
 .month-checklist-title {
@@ -135,7 +134,7 @@ button {
   margin: auto;
   margin-top: 3%;
   width: 100%;
-  min-height: 100vh;
+  padding-bottom: 30%;
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(134, 134, 134, 0.082);
