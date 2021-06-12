@@ -360,7 +360,7 @@ body .body2 {
 
 .body3 {
   /* background: #2e2c58; */
-  background: linear-gradient(#2e2c58, #9b9ab6);
+  background: #2e2c58;
 }
 
 .body3 h2 {
@@ -590,7 +590,7 @@ body .body2 {
   align-items: center;
   min-height: 60vh;
   flex-direction: column;
-  background: linear-gradient(#9b9ab6, #fff);
+  background: #2e2c58;
 }
 
 footer {
