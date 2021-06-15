@@ -129,12 +129,77 @@ section img#mountains_front {
   transform: translateY(150px);
 }
 
+.section1 {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+
+.section1 .big-logo {
+  /* padding: 9% 30%; */
+  position: absolute;
+  top: 17vh;
+  left: 40vw;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 12em;
+  z-index: 0;
+  letter-spacing: -0.1em;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.692);
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background: url(../icons/wave.png);
+  background-size: 1000px 100px;
+  animation: animate 4s ease-in-out infinite; /* ease : 천천히, 천천히 시작해서 천천히 끝난다는 뜻 */
+  animation-delay: calc(var(--i) * 0.25s);
+}
+
+.wave#wave1 {
+  z-index: 100000;
+  opacity: 1; /* 불투명도 */
+  background-position-x: 400px;
+}
+
+.wave#wave2 {
+  z-index: 99900;
+  opacity: 0.5;
+  background-position-x: 300px;
+}
+
+.wave#wave3 {
+  z-index: 99800;
+  opacity: 0.2;
+  background-position-x: 200px;
+}
+
+.wave#wave4 {
+  z-index: 99900;
+  opacity: 0.7;
+  background-position-x: 100px;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
 .sec {
   position: relative;
   padding: 100px;
   /* background: #1c0522; */
-  background: #2e2c58;
-  z-index: 10;
+  background: #fff;
+  z-index: 1000000;
 }
 
 .sec h2 {
@@ -295,7 +360,7 @@ body .body2 {
 
 .body3 {
   /* background: #2e2c58; */
-  background: linear-gradient(#2e2c58, #3f3d6b);
+  background: #2e2c58;
 }
 
 .body3 h2 {
@@ -309,14 +374,14 @@ body .body2 {
 
 .body3 .contest {
   margin-left: 12%;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
   width: 20%;
   display: flex;
 }
 
 .body3 .contest1 {
   margin-left: 12%;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
   width: 20%;
   display: flex;
 }
@@ -360,7 +425,7 @@ body .body2 {
   margin-top: 23vh;
   margin-right: 2vw;
   border-radius: 5px;
-  width: 13.5vw;
+  width: 13.9vw;
   height: 25vh;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.24);
   /* background: #fff; */
@@ -370,34 +435,34 @@ body .body2 {
   position: relative;
   margin-right: 2vw;
   border-radius: 5px;
-  width: 13.5vw;
+  width: 13.9vw;
   height: 25vh;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.24);
   /* background: #fff; */
 }
 
 .body3 .contest .contest-box .contest-title {
-  padding-right: 10%;
+  padding-right: 9%;
   /* text-align: center; */
   color: #fff;
   margin-top: 4%;
-  margin-left: 1%;
+  margin-left: 0%;
   font-size: 90%;
 }
 
 .body3 .contest1 .contest-box .contest-title {
-  padding-right: 10%;
+  padding-right: 7%;
   /* text-align: center; */
   color: #fff;
   margin-top: 4%;
-  margin-left: 1%;
+  margin-left: 0%;
   font-size: 90%;
 }
 
 .body3 .contest .contest-box .contest-sub {
   /* position: absolute;
   top: 172%; */
-  padding-right: 10%;
+  padding-right: 5%;
   color: rgba(255, 255, 255, 0.705);
   margin-top: 5%;
   margin-left: 0.1%;
@@ -471,7 +536,7 @@ body .body2 {
   margin-top: 3.7%;
   background-color: rgba(255, 255, 255, 0.856);
   width: 3vw;
-  height: 2.5vh;
+  line-height: 1.6em;
   text-align: center;
   border-radius: 5px;
   color: #2e2c58;
@@ -483,7 +548,7 @@ body .body2 {
   margin-top: 3.7%;
   background-color: rgba(255, 255, 255, 0.856);
   width: 3vw;
-  height: 2.5vh;
+  line-height: 1.6em;
   text-align: center;
   border-radius: 5px;
   color: #2e2c58;
@@ -495,7 +560,7 @@ body .body2 {
   margin-top: 3.7%;
   background-color: rgba(247, 65, 65, 0.87);
   width: 3vw;
-  height: 2.5vh;
+  line-height: 1.6em;
   text-align: center;
   line-height: 180%;
   border-radius: 5px;
@@ -509,7 +574,7 @@ body .body2 {
   margin-top: 3.7%;
   background-color: rgba(247, 65, 65, 0.87);
   width: 3vw;
-  height: 2.5vh;
+  line-height: 1.6em;
   text-align: center;
   line-height: 180%;
   border-radius: 5px;
@@ -525,7 +590,7 @@ body .body2 {
   align-items: center;
   min-height: 60vh;
   flex-direction: column;
-  background: #3f3d6b;
+  background: #2e2c58;
 }
 
 footer {

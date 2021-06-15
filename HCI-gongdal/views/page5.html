@@ -10,40 +10,92 @@
     <title>GONGDAL</title>
     <link rel="stylesheet" type="text/css" href="../statics/stylesheets/style.css" />
     <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page1.css" />
+    <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page4.css" />
     <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page5.css" />
   </head>
 
   <body>
     <header>
-      <a href="#" class="logo">GONGDAL</a>
+      <a href="#" class="logo"></a>
       <ul>
         <li><a href="page1.html" target="" title="">HOME</a></li>
         <li><a href="page4.html" target="" title="">CONTEST</a></li>
         <li><a href="page2.html" target="" title="">SCHEDULE</a></li>
-        <li><a href="page5.html" target="" class = "active" title="">PORTFOLIO</a></li>
+        <li><a href="page5.html" class = "active" target="" title="">PORTFOLIO</a></li>
       </ul>
     </header>
-    <div class="sec" id="sec" style="height: 1600px !important; padding: 0px !important">
+    <div class="section1">
+      <div class="wave" id="wave1" style="--i: 1"></div>
+      <div class="wave" id="wave2" style="--i: 2"></div>
+      <div class="wave" id="wave3" style="--i: 3"></div>
+      <div class="wave" id="wave4" style="--i: 4"></div>
+    </div>
+
+    <div class="compare-board-header-section">
+      <div class="left-box">
+        <div class="compare-board-header">
+          <div class="compare-board-title">Portfolio</div>
+          <p class="compare-board-desc">Look at the priorities of your contests!<br>Look at the priorities by comparing the duration and time spent preparing for the contests.</p>
+          <p class="compare-board-desc"></p>
+          
+        </div>
+        
+      </div>
+      
+      <div class="right-box">
+        <div class = "profile">
+          <div class="right-left-box">
+            <img class="profile-img" src= "../statics/icons/user-img.png" />
+          </div>
+          
+          <div class="right-right-box">
+            <div class = "user-name">USER</div>
+          <div class = "user-bio" id = "user-show">
+              Hi ! Welcome to my Gong.
+              Web Developer - 
+              Ewha University. Enter a description of yourself here. It is helpful to write down your skills and career.
+          </div>
+          <textarea class = "user-bio" id = "user-bio" style="display: none;">
+          </textarea>
+          <div class = "create-btn" onclick="editbio();">
+            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+              <span id = "editbtn">EDIT MY BIO</span>
+          </div>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+    <div class="sec" id="sec">
    
-        <div class = "wrapper">
-            <div class="content">
-            <img src="../statics/icons/background_profile.png" class = "top-background" style="object-fit:cover"></img>
-                <div class = "profile">
-                    <div>
-                    <img class="profile-img" src= "../statics/icons/user-img.png" />
-                    <div class = "user-name">USER</div>
-                    <div class = "user-bio" id = "user-show">
-                        Hi ! Welcome to my Gong<br>
-                        Web Developer<br>
-                        Ewha University
-                    </div>
-                    <textarea class = "user-bio" id = "user-bio" style="display: none;">
-                    </textarea>
-                    <div class = "create-btn" onclick="editbio();">
-                        <img src  = "../statics/icons/edit.png" />
-                        <span id = "editbtn">EDIT MY BIO</span>
-                    </div>
+      <div class = "portfolio">
+        <div class = "flex-box">
+            <span style="margin-right: 10px;">portfolio : 26</span>
+            <div class = "sort-selectbox">
+                RECENT
+                <img src  = "../statics/icons/dropdown.png" />    
+            </div>
+        </div>
+        <div class = "portfolio-line" style="margin-top:40px;"></div>
+        <div class = "portfolio-box" id = "p1">
+            <div class = "portfolio-rank">
+                <img src  = "../statics/icons/rank1.png" />
+            </div>
+            <div class = "portfolio-img">
+                <img src  = "../statics/icons/ictsw창업공모.png" />
+            </div>
+            <div class = "portfolio-info">
+                <div class = "button-zone">
+                <div class = "info-title">
+                    2021 ICT/SW Women's Entrepreneurship Contest
                 </div>
+                    <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p1');"/>
+                    <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
+                </div>
+                <div class = "info-detail">
+                  Ministry of Science and ICT<br>
+                    21.05.12 - 21.06.06
                 </div>
     
                 <div class = "portfolio">
@@ -213,10 +265,106 @@
                     <div class = "portfolio-line"></div>
              
             </div>
-    
+            <div class = "portfolio-img">
+                <img src  = "../statics/icons/ictsw창업공모.png" />
             </div>
-    
+            <div class = "portfolio-info">
+                <div class = "button-zone">
+                <div class = "info-title">
+                    2021 ICT/SW Women's Entrepreneurship Contest
+                </div>
+                    <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p3');"/>
+                    <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
+                </div>
+                <div class = "info-detail">
+                  Ministry of Science and ICT<br>
+                    21.05.12 - 21.06.06
+                </div>
+                <div class = "info-detail">
+                    MEMBER :<br>
+                    Sunwoo Kim   Ohjoo Hyun   HyeonJin Kim
+                </div>
+            </div>
+        </div>
+        <div class = "portfolio-line"></div>
+        <div class = "portfolio-box" id = "p4">
+            <div class = "portfolio-no-rank">
+            </div>
+            <div class = "portfolio-img">
+                <img src  = "../statics/icons/ictsw창업공모.png" />
+            </div>
+            <div class = "portfolio-info">
+                <div class = "button-zone">
+                <div class = "info-title">
+                    2021 ICT/SW Women's Entrepreneurship Contest
+                </div>
+                    <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p4');"/>
+                    <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
+                </div>
+                <div class = "info-detail">
+                  Ministry of Science and ICT<br>
+                    21.05.12 - 21.06.06
+                </div>
+                <div class = "info-detail">
+                    MEMBER :<br>
+                    Sunwoo Kim   Ohjoo Hyun   HyeonJin Kim
+                </div>
+            </div>
+        </div>
+        <div class = "portfolio-line"></div>
+        <div class = "portfolio-box"id = "p5">
+            <div class = "portfolio-no-rank">
+            </div>
+            <div class = "portfolio-img">
+                <img src  = "../statics/icons/ictsw창업공모.png" />
+            </div>
+            <div class = "portfolio-info">
+                <div class = "button-zone">
+                <div class = "info-title">
+                    2021 ICT/SW Women's Entrepreneurship Contest
+                </div>
+                    <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p5');"/>
+                    <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
+                </div>
+                <div class = "info-detail">
+                  Ministry of Science and ICT<br>
+                    21.05.12 - 21.06.06
+                </div>
+                <div class = "info-detail">
+                    MEMBER :<br>
+                    Sunwoo Kim   Ohjoo Hyun   HyeonJin Kim
+                </div>
+            </div>
+        </div>
+        <div class = "portfolio-line"></div>
+        <div class = "portfolio-box"id = "p6">
+            <div class = "portfolio-no-rank">
+            </div>
+            <div class = "portfolio-img">
+                <img src  = "../statics/icons/ictsw창업공모.png" />
+            </div>
+            <div class = "portfolio-info">
+                <div class = "button-zone">
+                <div class = "info-title">
+                    2021 ICT/SW Women's Entrepreneurship Contest
+                </div>
+                    <img src  = "../statics/icons/remove.png" class = "icon-20" onclick="deleteElement('p6');"/>
+                    <img src  = "../statics/icons/share1.png" class= "icon-20" onclick = "shareElement();"/>
+                </div>
+                <div class = "info-detail">
+                  Ministry of Science and ICT<br>
+                    21.05.12 - 21.06.06
+                </div>
+                <div class = "info-detail">
+                    MEMBER :<br>
+                    Sunwoo Kim   Ohjoo Hyun   HyeonJin Kim
+                </div>
+            </div>
+        </div>
+        <div class = "portfolio-line"></div>
+ 
 </div>
+
     </div>
   </div>
     <div class="body4">

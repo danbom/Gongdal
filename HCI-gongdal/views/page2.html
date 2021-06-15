@@ -3,206 +3,221 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-    crossorigin="anonymous"
-  />
-    <title>GONGDAL</title>
-    <link rel="stylesheet" type="text/css" href="../statics/stylesheets/style.css" />
-    <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page1.css" />
-    <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page2.css" />
-  </head>
 
-  <body>
-    <header>
-      <a href="#" class="logo">GONGDAL</a>
-      <ul>
-        <li><a href="page1.html" target="" title="">HOME</a></li>
-        <li><a href="page4.html" target="" title="">CONTEST</a></li>
-        <li><a href="page2.html" class = "active" target="" title="">SCHEDULE</a></li>
-        <li><a href="page5.html" target="" title="">PORTFOLIO</a></li>
-      </ul>
-    </header>
-    <div class="section1">
-      <div class="wave" id="wave1" style="--i: 1"></div>
-      <div class="wave" id="wave2" style="--i: 2"></div>
-      <div class="wave" id="wave3" style="--i: 3"></div>
-      <div class="wave" id="wave4" style="--i: 4"></div>
-    </div>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <title>GONGDAL</title>
+  <link rel="stylesheet" type="text/css" href="../statics/stylesheets/style.css" />
+  <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page1.css" />
+  <link rel="stylesheet" type="text/css" href="../statics/stylesheets/page2.css" />
+</head>
 
-    <div class="sec" id="sec">
- 
-      <div class="navigator" id = "side-bar">
-        <div class="user">
-          <img class="user_icon" src="../statics/icons/user-img.png">
-          <div class="user_text">
-            <div class="user_text1">
-              USER #1354<br>
-            </div>
-            <div class="user_text2">
-              interested in ..
-            </div>
+<body>
+  <header>
+    <a href="#" class="logo"></a>
+    <ul>
+      <li><a href="page1.html" target="" title="">HOME</a></li>
+      <li><a href="page4.html" target="" title="">CONTEST</a></li>
+      <li><a href="page2.html" class="active" target="" title="">SCHEDULE</a></li>
+      <li><a href="page5.html" target="" title="">PORTFOLIO</a></li>
+    </ul>
+  </header>
+  <div class="section1">
+    <div class="wave" id="wave1" style="--i: 1"></div>
+    <div class="wave" id="wave2" style="--i: 2"></div>
+    <div class="wave" id="wave3" style="--i: 3"></div>
+    <div class="wave" id="wave4" style="--i: 4"></div>
+  </div>
+
+  <div class="sec" id="sec">
+    <div class="navigator" id="side-bar">
+      <div class="user">
+        <img class="user_icon" src="../statics/icons/user-img.png">
+        <div class="user_text">
+          <div class="user_text1">
+            USER #1354<br>
           </div>
-        </div>
-        <div class="sortby">
-          <ul class="sortby">SORT BY
-            <li class="sortby">
-          <li ><button type="button" onclick="sortbtn('all');" class="sortby2" id = "allbtn">ALL</button>
-          <li ><button type="button" onclick="sortbtn('c');" id = "contestbtn" class="sortby1">CONTEST</button>
-          <li ><button type="button" onclick="sortbtn('m'); " id = "midtermbtn" class="sortby1">MIDTERM</button>
-          </ul>
-        </div>
-        <div class="sortby" style="margin-left: 15%; font-size: 1.2em;">
-          DATE<br>
-          <button type="button" style="margin-top: 10%; "class="date1" onclick="sortbtn('sort1');">
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="11" cy="11" r="11" fill="#F3F2F5"/>
-              </svg>                            
-            &nbsp&nbsp 2021. 01 ~ 2021. 12
-          </button>
-          <button type="button" class="date1" onclick="sortbtn('sort2');">
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="11" cy="11" r="11" fill="#E1E0E7"/>
-              </svg>              
-            &nbsp&nbsp 2021. 01 ~ 2021. 12
-          </button>
-          <button type="button" class="date1" onclick="sortbtn('sort3');">
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="11" cy="11" r="11" fill="#C7C6D2"/>
-              </svg>              
-            &nbsp&nbsp 2021. 01 ~ 2021. 12
-          </button>
-          <button type="button" class="date1" onclick="sortbtn('m');">
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="11" cy="11" r="11" fill="#9897AC"/>
-              </svg>              
-            &nbsp&nbsp 2021. 01 ~ 2021. 12
-          </button>
+          <div class="user_text2">
+            interested in ..
+          </div>
         </div>
       </div>
-    
+      <div class="sortby">
+        <ul class="sortby"><span class="sortby-icon"><i class="fa fa-sort" aria-hidden="true"></i></span>SORT BY
+          <li class="sortby">
+          <li><button type="button" onclick="sortbtn('all');" class="sortby2" id="allbtn"
+              id="btn"><span>ALL</span></button>
+          <li><button type="button" onclick="sortbtn('c');" id="contestbtn" class="sortby1"
+              id="btn"><span>CONTEST</span></button>
+          <li><button type="button" onclick="sortbtn('m'); " id="midtermbtn"
+              class="sortby1"><span>MIDTERM</span></button>
+        </ul>
+      </div>
+
+      <div class="sortby">
+        <ul class="sortby"><span class="sortby-icon"><i class="fa fa-calendar-o" aria-hidden="true"></i></span>DATE</ul>
+        <button type="button" style="margin-top: 9%; " class="date1" onclick="sortbtn('sort1');">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="10" cy="10" r="10" fill="#F3F2F5" />
+          </svg>
+          <span id="nav-date-span">2021. 01 ~ 2021. 12</span>
+        </button>
+        <button type="button" class="date1" onclick="sortbtn('sort2');">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="10" cy="10" r="10" fill="#E1E0E7" />
+          </svg>
+          <span id="nav-date-span">2021. 01 ~ 2021. 12</span>
+        </button>
+        <button type="button" class="date1" onclick="sortbtn('sort3');">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="10" cy="10" r="10" fill="#C7C6D2" />
+          </svg>
+          <span id="nav-date-span">2021. 01 ~ 2021. 12</span>
+        </button>
+        <button type="button" class="date1" onclick="sortbtn('m');">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="10" cy="10" r="10" fill="#9897AC" />
+          </svg>
+          <span id="nav-date-span">2021. 01 ~ 2021. 12</span>
+        </button>
+      </div>
+    </div>
+
     <div class="schedule_body">
-        <div class="schedule_button">
-          <a href = "page4.html">
-          <img src="../statics/icons/sch_butt.svg">
+      <div class="board-area">
+        <a href="page4.html">
+          <div class="board-btn">
+            
+            <div><i class="fa fa-list-alt" aria-hidden="true"></i>Compare Board</div>
+            <p>Look at the priorities of your by comparing the duration and time spent preparing for the contests.</p>
+          </div>
         </a>
-        <a href = "page3.html">
-          <div class="schedule_button1">
-            <img src="../statics/icons/sch_butt1.svg">
-            <img src="../statics/icons/sch_butt2.svg">
+        <a href="page3.html">
+          <div class="board-btn">
+            <div><i class="fa fa-check-square-o" aria-hidden="true"></i>Month Checklist</div>
+            <p>Look at the priorities of your by comparing the duration and time spent preparing for the contests.</p>
           </div>
-          </a>
-        </div>
-        
-      <h1 style="color: #FFF;">SCHEDULE</h1>
-        <div class="calendar_body">
-          <table class="calendar" width="1130" height="500">   
-            <tr>
-              <th>    </th>
-              <th style="color: rgb(255, 80, 80);">SUN</th>
-              <th style="color: #222;">MON</th>
-              <th style="color: #222;">TUE</th>
-              <th style="color: #222;">WED</th>
-              <th style="color: #222;">THU</th>
-              <th style="color: #222;">FRI</th>
-              <th style="color: rgb(91, 91, 255);">SAT</th>
-            </tr>
-    
-              <tr id = "content_contest1">
-                <td style="background:#2e2c580a; letter-spacing: -1px; font-weight: 500; color: #222;">SW supporters</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="1" style="opacity: 0.5; background:#2e2c581f; border-radius: 5px;"></td>
-              </tr>
-              <tr id = "content_contest2">
-                <td style="background:#2e2c580a; letter-spacing: -1px; font-weight: 500; color: #222;">NEXT local</td><td></td><td></td><td colspan="5" style="opacity: 0.5; background:#2e2c584b; border-radius: 5px;"></td>
-              </tr>
-              <tr id = "content_contest3">
-                <td style="background:#2e2c580a; letter-spacing: -1px; font-weight: 500; color: #222;">LG challengers</td><td></td><td colspan="3" style="opacity: 0.5; background:#2e2c588a; border-radius: 5px;"></td><td></td><td></td><td></td>
-              </tr>
-    
-    
-              <tr id = "content_midterm"><td style="background:#2e2c580a; letter-spacing: -1px; font-weight: 500; color: #222;">MIDTERM</td><td></td><td></td><td></td><td></td><td colspan="3" style="opacity: 0.6; background:#2e2c58d2; border-radius: 5px;"></td></tr>
-    
-            </table>
-    
-        </div>
+        </a>
+      </div>
+
+      <div class="week-schedule-title"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>Schedule of this Week</div>
+      <div class="calendar_body">
+        <table class="calendar">
+          <tr>
+            <th> </th>
+            <th style="color: rgb(255, 80, 80);">SUN</th>
+            <th style="color: #222;">MON</th>
+            <th style="color: #222;">TUE</th>
+            <th style="color: #222;">WED</th>
+            <th style="color: #222;">THU</th>
+            <th style="color: #222;">FRI</th>
+            <th style="color: rgb(91, 91, 255);">SAT</th>
+          </tr>
+
+          <tr id="content_contest1">
+            <td style="width: 20%; background:#6d6aa10a; letter-spacing: -1px; font-weight: 500; color: #222;">SW supporters</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="1" style="opacity: 0.5; background:#2e2c581f; border-radius: 5px;"></td>
+          </tr>
+          <tr id="content_contest2">
+            <td style="background:#eceaff07; letter-spacing: -1px; font-weight: 500; color: #222;">NEXT local</td>
+            <td></td>
+            <td></td>
+            <td colspan="5" style="opacity: 0.5; background:#2e2c584b; border-radius: 5px;"></td>
+          </tr>
+          <tr id="content_contest3">
+            <td style="background:#6d6aa10a; letter-spacing: -1px; font-weight: 500; color: #222;">LG challengers</td>
+            <td></td>
+            <td colspan="3" style="opacity: 0.5; background:#2e2c588a; border-radius: 5px;"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+
+          <tr id="content_midterm">
+            <td style="background:#eceaff07; letter-spacing: -1px; font-weight: 500; color: #222;">MIDTERM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="3" style="opacity: 0.6; background:#2e2c58d2; border-radius: 5px;"></td>
+          </tr>
+
+        </table>
+
+      </div>
+    </div>
   </div>
-</div>
-    <div class="body4">
-      <footer>
-        <div class="container">
-          <div class="sect aboutus">
-            <h2>About Us</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
-              possimus, cupiditate ipsam labore qui quidem accusamus
-              consequuntur ad voluptate odio obcaecati, delectus animi
-              distinctio blanditiis molestias ab ea reprehenderit vitae?
-            </p>
-            <ul class="sci">
-              <li>
-                <a href="#"
-                  ><i class="fa fa-facebook" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-instagram" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-youtube-play" aria-hidden="true"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <div class="sect quickLinks">
-            <h2>Quick Links</h2>
-            <ul>
-              <li><a href="home.html">HOME</a></li>
-              <li><a href="contest.html">CONTEST</a></li>
-              <li><a href="schedule.html">SCHEDULE</a></li>
-              <li><a href="portfolio.html">PORTFOLIO</a></li>
-            </ul>
-          </div>
-          <div class="sect contact">
-            <h2>Contact Info</h2>
-            <ul class="info">
-              <li>
-                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                <span
-                  >Ewha Womans University<br />
-                  Ahyeon-dong, Seodaemun-gu, <br />Seoul</span
-                >
-              </li>
-              <li>
-                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
-                <p>
-                  <a href="tel:123456789">+1 234 567 8900</a><br /><a
-                    href="tel:123456789"
-                    >+1 234 567 8900</a
-                  >
-                </p>
-              </li>
-              <li>
-                <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                <p><a href="mailto:gongdal@email.com">gongdal@email.com</a></p>
-              </li>
-            </ul>
-          </div>
+  <div class="body4">
+    <footer>
+      <div class="container">
+        <div class="sect aboutus">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+            possimus, cupiditate ipsam labore qui quidem accusamus
+            consequuntur ad voluptate odio obcaecati, delectus animi
+            distinctio blanditiis molestias ab ea reprehenderit vitae?
+          </p>
+          <ul class="sci">
+            <li>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </li>
+          </ul>
         </div>
-      </footer>
+        <div class="sect quickLinks">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="contest.html">CONTEST</a></li>
+            <li><a href="schedule.html">SCHEDULE</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+          </ul>
+        </div>
+        <div class="sect contact">
+          <h2>Contact Info</h2>
+          <ul class="info">
+            <li>
+              <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span>Ewha Womans University<br />
+                Ahyeon-dong, Seodaemun-gu, <br />Seoul</span>
+            </li>
+            <li>
+              <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <p>
+                <a href="tel:123456789">+1 234 567 8900</a><br /><a href="tel:123456789">+1 234 567 8900</a>
+              </p>
+            </li>
+            <li>
+              <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <p><a href="mailto:gongdal@email.com">gongdal@email.com</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <script>
 
 
 
-      
+
       let wave1 = document.getElementById("wave1");
       let wave2 = document.getElementById("wave2");
       let wave3 = document.getElementById("wave3");
@@ -215,16 +230,26 @@
         wave2.style.backgroundPositionX = 300 + value * -1.5 + "px";
         wave3.style.backgroundPositionX = 200 + value * 0.5 + "px";
         wave4.style.backgroundPositionX = 100 + value * -0.5 + "px";
-        
-        console.log("dlsfiejf : "+value);
+
+        console.log("dlsfiejf : " + value);
         var side = document.getElementById('side-bar');
-        if(value <= 670){
+        if (value <= 670) {
           side.style.display = "block";
-        }else{
+        } else {
           side.style.display = "none";
         }
-        
+
       });
+
+      const btn = document.getElementById('btn');
+      btn.onmousemove = function (e) {
+        const x = e.pageX - btn.offsetLeft;
+        const y = e.pageY - btn.offsetTop;
+
+        btn.style.setProperty('--x', x + 'px');
+        btn.style.setProperty('--y', y + 'px');
+
+      }
     </script>
 
 
@@ -232,81 +257,82 @@
 
 
 
-<script>
-  function sortbtn(a){
-    console.log("asdkjfoeijfl");
-    var obj = a;
-    console.log(a+'skjelfd');
-    var contest1 = document.getElementById("content_contest1");
-    var contest2 = document.getElementById("content_contest2");
-    var contest3 = document.getElementById("content_contest3");
-    var midterm = document.getElementById("content_midterm");
+    <script>
+      function sortbtn(a) {
+        console.log("asdkjfoeijfl");
+        var obj = a;
+        console.log(a + 'skjelfd');
+        var contest1 = document.getElementById("content_contest1");
+        var contest2 = document.getElementById("content_contest2");
+        var contest3 = document.getElementById("content_contest3");
+        var midterm = document.getElementById("content_midterm");
 
-    var allbtn = document.getElementById("allbtn");
-    var contestbtn = document.getElementById("contestbtn");
-    var midtermbtn = document.getElementById("midtermbtn");
+        var allbtn = document.getElementById("allbtn");
+        var contestbtn = document.getElementById("contestbtn");
+        var midtermbtn = document.getElementById("midtermbtn");
 
-    contest1.style.display = "none";
-    contest2.style.display = "none";
-    contest3.style.display = "none";
-    midterm.style.display = "none";
+        contest1.style.display = "none";
+        contest2.style.display = "none";
+        contest3.style.display = "none";
+        midterm.style.display = "none";
 
-    if(allbtn.classList.contains("sortby2")){
-      allbtn.classList.remove("sortby2")
-      allbtn.classList.add("sortby1")
-    }
-    if(contestbtn.classList.contains("sortby2")){
-      contestbtn.classList.remove("sortby2")
-      contestbtn.classList.add("sortby1")
-    }
-    if(midtermbtn.classList.contains("sortby2")){
-      midtermbtn.classList.remove("sortby2")
-      midtermbtn.classList.add("sortby1")
-    }
+        if (allbtn.classList.contains("sortby2")) {
+          allbtn.classList.remove("sortby2")
+          allbtn.classList.add("sortby1")
+        }
+        if (contestbtn.classList.contains("sortby2")) {
+          contestbtn.classList.remove("sortby2")
+          contestbtn.classList.add("sortby1")
+        }
+        if (midtermbtn.classList.contains("sortby2")) {
+          midtermbtn.classList.remove("sortby2")
+          midtermbtn.classList.add("sortby1")
+        }
 
-    if(a == 'all'){
-      console.log(a);
-      allbtn.classList.remove("sortby1");
-      allbtn.classList.add("sortby2");
-    contest1.style.display = "table-row";
-    contest2.style.display = "table-row";
-    contest3.style.display = "table-row";
-    midterm.style.display = "table-row";
-    }  
-    else if(a == 'c'){
-      console.log(a);
-      contestbtn.classList.remove("sortby1");
-      contestbtn.classList.add("sortby2");
-    contest1.style.display = "table-row";
-    contest2.style.display = "table-row";
-    contest3.style.display = "table-row";
-    }
-    else if(a == 'm'){
-      console.log(a);
-      midtermbtn.classList.remove("sortby1");
-      midtermbtn.classList.add("sortby2");
-    midterm.style.display = "table-row";
-    }
-    else if(a == 'sort1'){
-      console.log(a);
-      contestbtn.classList.remove("sortby1");
-      contestbtn.classList.add("sortby2");
-    contest1.style.display = "table-row";
-    }
-    else if(a == 'sort2'){
-      console.log(a);
-      contestbtn.classList.remove("sortby1");
-      contestbtn.classList.add("sortby2");
-    contest2.style.display = "table-row";
-    }
-    else if(a == 'sort3'){
-      console.log(a);
-      contestbtn.classList.remove("sortby1");
-      contestbtn.classList.add("sortby2");
-    contest3.style.display = "table-row";
-    }
-  }
+        if (a == 'all') {
+          console.log(a);
+          allbtn.classList.remove("sortby1");
+          allbtn.classList.add("sortby2");
+          contest1.style.display = "table-row";
+          contest2.style.display = "table-row";
+          contest3.style.display = "table-row";
+          midterm.style.display = "table-row";
+        }
+        else if (a == 'c') {
+          console.log(a);
+          contestbtn.classList.remove("sortby1");
+          contestbtn.classList.add("sortby2");
+          contest1.style.display = "table-row";
+          contest2.style.display = "table-row";
+          contest3.style.display = "table-row";
+        }
+        else if (a == 'm') {
+          console.log(a);
+          midtermbtn.classList.remove("sortby1");
+          midtermbtn.classList.add("sortby2");
+          midterm.style.display = "table-row";
+        }
+        else if (a == 'sort1') {
+          console.log(a);
+          contestbtn.classList.remove("sortby1");
+          contestbtn.classList.add("sortby2");
+          contest1.style.display = "table-row";
+        }
+        else if (a == 'sort2') {
+          console.log(a);
+          contestbtn.classList.remove("sortby1");
+          contestbtn.classList.add("sortby2");
+          contest2.style.display = "table-row";
+        }
+        else if (a == 'sort3') {
+          console.log(a);
+          contestbtn.classList.remove("sortby1");
+          contestbtn.classList.add("sortby2");
+          contest3.style.display = "table-row";
+        }
+      }
 
-</script>
+    </script>
 </body>
+
 </html>

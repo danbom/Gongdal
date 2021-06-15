@@ -14,11 +14,11 @@ body {
   line-height: 1.5;
 }
 
-button:active {
+/* button:active {
   -webkit-box-shadow: inset 1px 1px 10px #333;
   -moz-box-shadow: inset 1px 1px 10px #333;
   box-shadow: inset 1px 1px 10px #333;
-}
+} */
 
 button {
   display: inline-block;
@@ -91,58 +91,6 @@ header > .wrap > ul > li :hover {
   text-shadow: #c4c4c4 1px 0 10px;
 }
 
-.section1 {
-  position: relative;
-  width: 100%;
-  height: 40vh;
-}
-
-.wave {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 20%;
-  background: url(../icons/wave.png);
-  background-size: 1000px 100px;
-  animation: animate 4s ease-in-out infinite; /* ease : 천천히, 천천히 시작해서 천천히 끝난다는 뜻 */
-  animation-delay: calc(var(--i) * 0.25s);
-}
-
-.wave#wave1 {
-  z-index: 100000;
-  opacity: 1; /* 불투명도 */
-  background-position-x: 400px;
-}
-
-.wave#wave2 {
-  z-index: 99900;
-  opacity: 0.5;
-  background-position-x: 300px;
-}
-
-.wave#wave3 {
-  z-index: 99800;
-  opacity: 0.2;
-  background-position-x: 200px;
-}
-
-.wave#wave4 {
-  z-index: 99900;
-  opacity: 0.7;
-  background-position-x: 100px;
-}
-
-@keyframes animate {
-  0%,
-  100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-}
-
 .sec {
   background-color: #fff;
 }
@@ -150,43 +98,41 @@ th {
   color: #111;
 }
 .navigator {
-  width: 390px;
+  width: 17%;
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 7%;
   display: fixed;
   position: fixed;
-  border-radius: 10px;
+  border-radius: 0 10px 0px 0;
   box-shadow: 0 0 14px rgba(255, 255, 255, 0.596);
-  background-color: rgba(255, 255, 255, 0.13);
+  background-color: rgba(255, 255, 255, 0.801);
   color: #111 !important;
 }
 .navigator .user {
   position: relative;
   color: #111;
   text-align: left;
-  margin-top: 13%;
+  margin-top: 30%;
   /* align-items: baseline; */
 }
 .navigator .user .user_icon {
-  margin-left: 15%;
+  margin-left: 13%;
   float: left;
-  width: 18%;
+  width: 16%;
 }
 
 .navigator .user .user_text1 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 500;
-  margin-left: 43%;
+  margin-left: 37%;
 }
 .navigator .user .user_text2 {
-  font-size: 1em;
-  margin-left: 43%;
+  font-size: 0.8em;
+  margin-left: 37%;
   font-weight: 300;
   margin-top: -1.5%;
 }
@@ -196,49 +142,99 @@ th {
   align-items: center;
   margin-left: 8%;
   text-align: left;
-  font-size: 1.1em;
+  font-size: 1.03em;
+  font-weight: 500;
   color: #111;
   margin-top: 20%;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
 }
 
 .navigator .sortby ul li {
   margin-top: 0%;
 }
 
+.sortby .sortby-icon i {
+  margin-right: 7%;
+}
+
 .navigator .sortby .sortby1 {
+  text-align: center;
   position: relative;
   width: 81.5%;
-  height: 4vh;
-  background: #f5f5f5;
-  mix-blend-mode: darken;
-  box-shadow: 0 0 5px #2e2c5842;
+  height: 3.5vh;
+  background: rgba(255, 255, 255, 0.075);
+  /* box-shadow:  0 0 5px #46456354; */
   border-radius: 20px;
   margin-top: 3%;
   font-size: 0.8em;
   outline: none;
   border: none;
+  cursor: pointer;
+}
+
+.navigator .sortby #btn {
+  overflow: hidden;
 }
 
 .navigator .sortby .sortby2 {
   position: relative;
   width: 81.5%;
-  height: 4vh;
-  background: #3532531f;
-  mix-blend-mode: darken;
+  height: 3.5vh;
+  background: #2a184dad;
+  color: #fff;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   margin-top: 3%;
   font-size: 0.8em;
   border: none;
+  cursor: pointer;
 }
 
 .navigator .date {
 }
 
 .navigator .sortby button {
-  font-size: 0.9em;
+  font-size: 1em;
   margin-bottom: 2.5%;
+  cursor: pointer;
+}
+
+.navigator .sortby button span#nav-date-span {
+  padding-left: 15px;
+}
+
+.navigator #btn span {
+  position: relative;
+  z-index: 1;
+}
+
+.navigator #btn::before {
+  content: "";
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2196f3;
+  transition: width 0.5s, height 0.5s;
+}
+
+.navigator #btn:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.navigator .sortby .date1 {
+  font-size: 0.95em;
+  position: relative;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.navigator .sortby .date1 svg {
+  vertical-align: middle;
 }
 
 .schedule_body {
@@ -250,20 +246,65 @@ th {
   padding: 1% 1%;
   height: 100%;
 }
-.schedule_body .schedule_button {
-  position: relative;
-  margin-bottom: 3%;
+
+.board-area {
+  width: 68%;
+  height: 17vh;
+  display: flex;
+  justify-content: space-around;
 }
-.schedule_body .schedule_button .schedule_button1 {
+
+.board-btn {
+  width: 95%;
+  height: 10em;
+  border: 0.2px solid #333;
+  box-shadow: 0 0 5px rgba(51, 51, 51, 0.151);
+  border-radius: 25px;
   position: relative;
-  margin-top: 1%;
+  background: #fff;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+
+.board-btn:hover {
+  background: #94949415;
+}
+
+.board-btn div {
+  color: #333;
+  padding: 7% 0 0 9%;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+.board-btn div i {
+  margin-right: 4%;
+}
+
+.board-btn p {
+  color: #333;
+  font-size: 0.8em;
+  padding: 1% 9% 0% 9%;
+}
+
+.week-schedule-title {
+  padding: 2% 0;
+  margin-top: 7%;
+  margin-bottom: 2%;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.week-schedule-title i {
+  margin-right: 1%;
 }
 
 .schedule_body .calendar_body {
   position: relative;
   text-align: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.1em;
   /* background-color: #FFF; */
 }
 .schedule_body .calendar_body .calendar {
@@ -272,8 +313,9 @@ th {
   position: relative;
   border-collapse: collapse;
   box-sizing: border-box;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.055);
   background-color: #fff;
+  border-radius: 15px;
 }
 .schedule_body .calendar_body .tr {
   color: rgb(0, 0, 0);

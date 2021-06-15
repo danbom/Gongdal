@@ -12,7 +12,7 @@ body {
   font-family: "Noto Sans KR", sans-serif !important;
   font-weight: 400;
   line-height: 1.5;
-  color : #FFF;
+  color: #111;
 }
 
 button {
@@ -41,7 +41,6 @@ button {
   font-size: 22px;
   line-height: 23px;
   text-align: center;
-
 }
 
 .topbtn > img {
@@ -85,25 +84,103 @@ header > .wrap > ul > li :hover {
   text-shadow: #c4c4c4 1px 0 10px;
 }
 
+.section1 .big-logo {
+  left: 30vw;
+}
+
+.sec {
+  background: #f7f5fa;
+}
+
+.compare-board-header-section {
+  display: flex;
+  background: #fff;
+}
+
+.compare-board-header-section .left-box {
+  margin-left: 8%;
+  background: #fff;
+  padding: 5% 8%;
+  width: 40%;
+  position: relative;
+}
+
+.right-box {
+  width: 47%;
+  background-image: url("../icons/board_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.compare-board-header .compare-board-title {
+  font-size: 4.5em;
+  font-weight: 600;
+  letter-spacing: -3px;
+  color: #2d1a46;
+  line-height: 1.3em;
+}
+
+.compare-board-header-section .compare-board-desc {
+  padding-top: 2vh;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  color: #7e66a0;
+  line-height: 1.3em;
+  max-width: 25vw;
+}
+
+.compare-board-header-section img {
+}
+
 /* content.css */
 .wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
+.table-block {
+  margin: 2% 12%;
+  background-color: #fff;
+  padding: 3% 5%;
+  border-radius: 25px;
+  box-shadow: 0 0 14px rgba(99, 99, 99, 0.247);
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+table thead tr th {
+  font-size: 1.2em;
+  line-height: 5em;
+}
+
+table tbody tr:hover {
+  background: #f7f5fad8;
+  cursor: pointer;
+}
+
+table tbody tr td {
+  line-height: 5em;
+}
+
+table tbody tr td#td1 {
+  font-weight: bold;
+}
+
+table tbody tr td span {
+  font-weight: bold;
+  padding-left: 4%;
+}
+
 .content {
   margin-top: 86px;
   width: 100%;
   max-width: 1200px;
-}
-
-.content-title-wrap {
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 135px;
 }
 
 .content-title > span {
@@ -114,17 +191,9 @@ header > .wrap > ul > li :hover {
   text-align: center;
 }
 
-.brand-btn-bar > .brand-line {
-  background: #e2e2e2;
-  max-width: 900px;
-  width: 100%;
-  height: 5px;
-}
-
 .brand-list-index {
   width: 100%;
-  max-width: 900px;
-  height: 50px;
+  height: 7vh;
   position: relative;
 }
 
@@ -143,23 +212,20 @@ header > .wrap > ul > li :hover {
   top: 25px;
 }
 .brand-btn-bar > .brand-btn-zone {
-  width: 100%;
-  max-width: 900px;
   display: flex;
   align-items: center;
   justify-items: center;
-  margin: 24px;
 }
 
 .brand-btn-bar > .brand-btn-zone > .brand-btn {
-  width: 90px;
+  width: 20vw;
   height: 90px;
   border-radius: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(196, 196, 196, 0.34);
-  margin-right: 85px;
+  margin-right: 5vw;
 }
 
 .brand-btn-bar > .brand-btn-zone > .brand-btn:hover {
@@ -203,21 +269,21 @@ header > .wrap > ul > li :hover {
   border-radius: 24px;
   background: #ffbc38;
   box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #111;
 }
 
 .silver {
   border-radius: 24px;
   background: #cccccc;
   box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #111;
 }
 
 .bronze {
   border-radius: 24px;
   background: #dbad82;
   box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #111;
 }
 
 .list-box > .contest-img,
@@ -227,13 +293,12 @@ header > .wrap > ul > li :hover {
   margin-right: 38px;
 }
 
-.contest-info{
+.contest-info {
   width: 220px;
 }
 .contest-rank {
   width: 40px;
 }
-
 
 .contest-name {
   font-style: normal;
@@ -248,9 +313,12 @@ header > .wrap > ul > li :hover {
   background: #e2e2e2;
 }
 
-.img-icon{
+.img-icon {
   width: 90px;
   height: 90px;
   border-radius: 4px;
+}
 
+.body4 {
+  background: #f7f5fa;
 }
