@@ -10,7 +10,7 @@
 </h3>
 <br>
 
-- [ ] home : 노트북에서 볼 때 서치버튼 동그라미 아님
+- [x] home : 노트북에서 볼 때 서치버튼 동그라미 아님 -> 데스크탑에서 확인하기
 - [x] compare board, schedule 위 버튼들 색 변하는 거 티 안남
 - [ ] schedule : 사이드 바 draggable sidebar로 만들기
 - [x] checklist : 표 밑 여백 너무 큼 -> 데스크탑에서 확인하기
