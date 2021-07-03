@@ -11,29 +11,29 @@ app.set('view engine','html'); // 템플릿 엔진 세팅
 app.use(express.static('statics'));
 
 //main page
-//page1
+//home
 app.get('/main', (req, res) => {
-  return res.render("page1.html");
+  return res.render("home.html");
 })
-//page2
+//schedule
 app.get('/schedule', (req, res) => {
-  return res.render("page2.html");
+  return res.render("schedule.html");
 })
-//page3
+//checklist
 app.get('/schedule/month', (req, res) => {
-  return res.render("page3.html");
+  return res.render("checklist.html");
 })
-//page4
+//contest
 app.get('/contest', (req, res) => {
-  return res.render("page4.html");
+  return res.render("contest.html");
 })
-//page5
+//portfolio
 app.get('/portfolio', (req, res) => {
-  return res.render("page5.html");
+  return res.render("portfolio.html");
 })
 
 app.get('/detail', (req, res) => {
-  return res.render("page6.html");
+  return res.render("detail.html");
 })
 
 app.listen(3000)

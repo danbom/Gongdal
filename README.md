@@ -1,7 +1,7 @@
 # NEW-HCI-gongdal
 <br>
 
-👋 https://danbom.github.io/NEW-HCI-gongdal/HCI-gongdal/gongdal_ver1.1/views/page1.html
+👋 https://danbom.github.io/NEW-HCI-gongdal/HCI-gongdal/gongdal_ver1.1/views/home.html
 <br>
 <br>
 
