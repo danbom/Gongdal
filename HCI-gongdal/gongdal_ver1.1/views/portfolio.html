@@ -54,6 +54,9 @@
             Ewha University. Enter a description of yourself here. It is helpful to write down your skills and career.
           </div>
           <textarea class="user-bio" id="user-bio" style="display: none;">
+            Hi ! Welcome to my Gong.
+            Web Developer -
+            Ewha University. Enter a description of yourself here. It is helpful to write down your skills and career.
           </textarea>
           <div class="create-btn" onclick="editbio();">
             <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
@@ -329,13 +332,15 @@
     if (edit == false) {
       edit = true;
       obj.style.display = "block";
-      btn.innerHTML = "SAVE MY BIO"
+      bio.style.display = "none";
+      btn.innerHTML = "SAVE MY BIO";
     } else {
       edit = false;
       console.log(obj.innerHTML);
       bio.innerText = obj.value;
       obj.style.display = "none";
-      btn.innerHTML = "EDIT MY BIO"
+      bio.style.display = "block";
+      btn.innerHTML = "EDIT MY BIO";
     }
   }
 
